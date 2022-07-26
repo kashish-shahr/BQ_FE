@@ -1,0 +1,23 @@
+<form action="" [formGroup]="formGroup" (ngSubmit)="submitStudent()">
+    <p>Enter Below Fields to fill the Student Database at BigQuery( <a target="_blank" href="https://console.cloud.google.com/bigquery?referrer=search&project=new-poc-microsite&ws=!1m5!1m4!4m3!1snew-poc-microsite!2sStudentDS!3sStudentTBL">click here Link</a> )</p>
+    
+    <mat-form-field appearance="fill">
+      <mat-label>Id</mat-label>
+      <input readonly type="number" matInput formControlName="Id">
+    </mat-form-field>
+    <mat-form-field appearance="fill">
+      <mat-label>Name</mat-label>
+      <input matInput formControlName="Name">
+    </mat-form-field>
+    <mat-form-field appearance="fill">
+      <mat-label>Age</mat-label>
+      <input type="number" matInput formControlName="Age">
+    </mat-form-field>
+    <mat-form-field appearance="fill">
+      <mat-label>Weight</mat-label>
+        <input type="number" matInput formControlName="Weight">
+        <span matSuffix>Kg &nbsp;</span>
+      
+    </mat-form-field>
+    <button [disabled]="!this.formGroup.valid" mat-stroked-button color="primary" >Submit</button>
+    </form>

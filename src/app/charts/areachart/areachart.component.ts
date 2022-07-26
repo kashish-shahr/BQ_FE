@@ -3,15 +3,13 @@ import { Student } from 'src/app/Student/Student.model';
 import { StudentService } from 'src/app/Student/student.service';
 declare var google:any;
 
-
 @Component({
-  selector: 'app-piechart',
-  templateUrl: './piechart.component.html',
-  styleUrls: ['./piechart.component.css']
+  selector: 'app-areachart',
+  templateUrl: './areachart.component.html',
+  styleUrls: ['./areachart.component.css']
 })
+export class AreachartComponent implements OnInit {
 
-export class PiechartComponent implements OnInit {
-  
   constructor(private _students:StudentService) { }
   
   StudentList:Student[]=[];
@@ -58,7 +56,8 @@ export class PiechartComponent implements OnInit {
     }
     chart().draw(data,options);
     }
-    var chart =()=> new google.visualization.PieChart(document.getElementById('divPieChart'));
+    var chart =()=> new google.visualization.AreaChart(document.getElementById('divAreaChart'));
+    
     var callback=()=>func(chart);
     google.charts.setOnLoadCallback(callback);
   }
