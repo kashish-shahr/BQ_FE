@@ -1,4 +1,5 @@
 
+
   <form action="" [formGroup]="formGroup" (ngSubmit)="submitStudent()">
   <p>Enter Below Fields to fill the Student Database at BigQuery( <a target="_blank" href="https://console.cloud.google.com/bigquery?referrer=search&project=new-poc-microsite&ws=!1m5!1m4!4m3!1snew-poc-microsite!2sStudentDS!3sStudentTBL">click here Link</a> )</p>
   
@@ -29,7 +30,7 @@
     <!-- Name Column -->
     <ng-container matColumnDef="id">
       <th mat-header-cell *matHeaderCellDef> Id. </th>
-      <td mat-cell *matCellDef="let element;let i= index"> {{element.id}} </td>
+      <td mat-cell *matCellDef="let element;"> {{element.id}} </td>
     </ng-container>
     <ng-container matColumnDef="name">
       <th mat-header-cell *matHeaderCellDef> Name </th>
@@ -51,12 +52,13 @@
     <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
     <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
   </table>
-  <div class="loading" *ngIf="loading">
+  <!-- <div class="loading" *ngIf="loading">
     <mat-spinner></mat-spinner>
-  </div>
+  </div> -->
 
   <div *ngFor="let item of Students">
     <p>{{item.name}}</p>
   </div>
   
   
+<app-piechart></app-piechart>

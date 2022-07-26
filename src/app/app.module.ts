@@ -11,11 +11,14 @@ import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ReactiveFormsModule } from '@angular/forms';
 import { MatButtonModule } from '@angular/material/button';
+import { GoogleChartsModule } from 'angular-google-charts';
+import { PiechartComponent } from './charts/piechart/piechart.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PiechartComponent
   ],
   imports: [
     BrowserModule,
@@ -30,6 +33,7 @@ import { MatButtonModule } from '@angular/material/button';
     MatInputModule,
     MatButtonModule,
     MatTableModule,
+    GoogleChartsModule
 
     
   ],
