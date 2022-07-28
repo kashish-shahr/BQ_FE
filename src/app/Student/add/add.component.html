@@ -1,23 +1,68 @@
-<form action="" [formGroup]="formGroup" (ngSubmit)="submitStudent()">
+<!-- id_name_fg -->
+<form action="" [formGroup]="id_name_fg" >
     <p>Enter Below Fields to fill the Student Database at BigQuery( <a target="_blank" href="https://console.cloud.google.com/bigquery?referrer=search&project=new-poc-microsite&ws=!1m5!1m4!4m3!1snew-poc-microsite!2sStudentDS!3sStudentTBL">click here Link</a> )</p>
-    
+
+<div class="container">
+  
+  <fieldset  *ngIf="step==1">
+    <div class="mb-3">
     <mat-form-field appearance="fill">
       <mat-label>Id</mat-label>
-      <input type="number" matInput formControlName="id">
+      <input type="number"  matInput formControlName="id">
+      <div *ngIf="id_name_fg.get('id').touched">
+      <mat-error class="  label-error" *ngIf="id_name_fg.get('id').hasError('required') && !id_name_fg.get('id').pristine">Required</mat-error>
+      <mat-error class="  label-error" *ngIf="id_name_fg.get('id').hasError('pattern')">Use only Positive digits</mat-error>
+
+    </div>
+
+   
     </mat-form-field>
+  </div>
+  <div class="mb-3">
     <mat-form-field appearance="fill">
       <mat-label>Name</mat-label>
       <input matInput formControlName="name">
+      <div *ngIf="id_name_fg.get('name').touched">
+      <mat-error class="  label-error" *ngIf="id_name_fg.get('name').hasError('required') && !id_name_fg.get('name').pristine">Required</mat-error>
+      <mat-error class="label-error" *ngIf="id_name_fg.get('name').hasError('pattern')">Use only alphabets and digits</mat-error>
+      </div>
     </mat-form-field>
+  </div>
+  </fieldset>
+</div>
+</form>
+<!-- //age_weight_fg -->
+<form action="" [formGroup]="age_weight_fg" (ngSubmit)="submitStudent()">
+  <div  *ngIf="step==2">
+    <div class="mb-3">
     <mat-form-field appearance="fill">
       <mat-label>Age</mat-label>
-      <input type="number" matInput formControlName="age">
+      <input type="number" min="0" matInput formControlName="age">
+      <div *ngIf="age_weight_fg.get('age').touched">
+      <mat-error class="  label-error" *ngIf="age_weight_fg.get('age').hasError('required') && !age_weight_fg.get('age').pristine">Required</mat-error>
+      <mat-error class="  label-error" *ngIf="age_weight_fg.get('age').hasError('pattern')">Use only positive numbers</mat-error>
+      </div>
+
     </mat-form-field>
+  </div>
+  <div class="mb-3">
     <mat-form-field appearance="fill">
       <mat-label>Weight</mat-label>
-        <input type="number" matInput formControlName="weight">
-        <span matSuffix>Kg &nbsp;</span>
+        <input min="0" type="number" matInput formControlName="weight"><span matSuffix>Kg &nbsp;</span>
+        <div *ngIf="age_weight_fg.get('weight').touched">
+        <mat-error class="label-error" *ngIf="age_weight_fg.get('weight').hasError('required') && !age_weight_fg.get('weight').pristine">Required</mat-error>
+
+        <mat-error class="  label-error" *ngIf="age_weight_fg.get('weight').hasError('pattern')">Use only positive numbers</mat-error>
+      </div>
+        
       
     </mat-form-field>
-    <button [disabled]="!this.formGroup.valid" mat-stroked-button color="primary" >Submit</button>
-    </form>
+  </div>
+  </div>
+</form>
+    <!-- <button [disabled]="!this.formGroup.valid" mat-stroked-button color="primary" >Submit</button> -->
+    <div class="mb-3">
+    <button *ngIf="step!=1" (click)="onPrevious()"  mat-stroked-button color="primary" >Previous</button>
+    <button *ngIf="step!=2" (click)="onNext()"  mat-stroked-button color="primary" >Next</button>
+    <button (click)="submitStudent()" *ngIf="step==2" [disabled]="age_weight_fg.invalid"  mat-stroked-button color="primary" >Submit</button>
+  </div>
