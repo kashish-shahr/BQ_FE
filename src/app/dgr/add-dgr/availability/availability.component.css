@@ -1,0 +1,33 @@
+mat-form-field{
+    width: auto;
+}
+
+span{
+    font-size: 80%;
+}
+main {
+    margin-left: 8px;
+    padding: 0 20rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+ 
+  input.example-right-align::-webkit-outer-spin-button,
+  input.example-right-align::-webkit-inner-spin-button {
+    display: none;
+  }
+  
+  input.example-right-align {
+    -moz-appearance: textfield;
+  }
+  
+
+  .hidden{
+display:none;
+  }
+
+  .active{
+    display:block;
+  }
