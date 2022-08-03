@@ -40,6 +40,9 @@ import { CustomInputComponent } from './Shared/Elements/custom-input/custom-inpu
 import { SiteInputDisplayComponent } from './Forms/dgr/SiteInput/site-input-display/site-input-display.component';
 import { AvailabilityDisplayComponent } from './Forms/dgr/Availability/availability-display/availability-display.component';
 
+import { GrassCuttingDisplayComponent } from './Forms/dgr/GrassCutting/grass-cutting-display/grass-cutting-display.component';
+import { GrassCuttingAddComponent } from './Forms/dgr/GrassCutting/grass-cutting-add/grass-cutting-add.component';
+
 
 
 @NgModule({
@@ -64,6 +67,9 @@ import { AvailabilityDisplayComponent } from './Forms/dgr/Availability/availabil
     CustomInputComponent,
     SiteInputDisplayComponent,
     AvailabilityDisplayComponent,
+    
+    GrassCuttingDisplayComponent,
+    GrassCuttingAddComponent,
     
   ],
   imports: [

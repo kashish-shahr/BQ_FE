@@ -13,12 +13,16 @@
       <mat-option value="availability">
         Availability
       </mat-option>
+      <mat-option value="grass_cutting_report">
+        Grass Cutting Report
+      </mat-option>
     </mat-select>
   </mat-form-field>
   
   <div>
     <app-site-input-display *ngIf="si_flag"></app-site-input-display>
     <app-availability-display *ngIf="av_flag"></app-availability-display>
+    <app-grass-cutting-display *ngIf="gcr_flag"></app-grass-cutting-display>
   </div>
 </main>
 

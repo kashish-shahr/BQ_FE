@@ -1,0 +1,40 @@
+<main>
+    <div class="mat-elevation-z8">
+      <table mat-table [dataSource]="dataSource">
+        <!--  -->
+        <ng-container matColumnDef="grass_cutting_report_date">
+          <!--  -->
+          <th mat-header-cell *matHeaderCellDef>Date</th>
+          <td mat-cell *matCellDef="let element">
+            {{ element.grass_cutting_report_date }}
+          </td>
+        </ng-container>
+
+        <ng-container matColumnDef="grass_cutting_report_daily_in_acres">
+          <!--  -->
+          <th mat-header-cell *matHeaderCellDef>Daily (In Acres)</th>
+          <td mat-cell *matCellDef="let element">
+            {{ element.grass_cutting_report_daily_in_acres }}
+          </td>
+        </ng-container>
+        
+        <ng-container matColumnDef="grass_cutting_report_mtd_in_acres">
+          <!--  -->
+          <th mat-header-cell *matHeaderCellDef> MTD ( In Acres)</th>
+          <td mat-cell *matCellDef="let element">
+            {{ element.grass_cutting_report_mtd_in_acres }}
+          </td>
+        </ng-container>
+
+        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+        <tr mat-row *matRowDef="let row; columns: displayedColumns"></tr>
+      </table>
+      <mat-paginator
+        [pageSizeOptions]="[5, 10, 20]"
+        showFirstLastButtons
+        aria-label="Select page of periodic elements"
+      >
+      </mat-paginator>
+    </div>
+  </main>
+  

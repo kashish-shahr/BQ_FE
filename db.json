@@ -1056,7 +1056,7 @@
 "availability":
 [
   {
-   "date_day": "3-Aug-2022",
+   "grass_cutting_report_date_day": "3-Aug-2022",
    "total_operational_minutes_irradiation_greater_than_100_day": 672,
    "rmu_number_day": 0,
    "rmu_breakdown_minutes_day": 0,
@@ -1090,7 +1090,7 @@
    "transmission_line_no_of_effected_inverter_day": 0
   },
   {
-   "date_day": "4-Aug-2022",
+   "grass_cutting_report_date_day": "4-Aug-2022",
    "total_operational_minutes_irradiation_greater_than_100_day": 684,
    "rmu_number_day": 0,
    "rmu_breakdown_minutes_day": 0,
@@ -1124,7 +1124,7 @@
    "transmission_line_no_of_effected_inverter_day": 0
   },
   {
-   "date_day": "5-Aug-2022",
+   "grass_cutting_report_date_day": "5-Aug-2022",
    "total_operational_minutes_irradiation_greater_than_100_day": 673,
    "rmu_number_day": 0,
    "rmu_breakdown_minutes_day": 0,
@@ -1158,7 +1158,7 @@
    "transmission_line_no_of_effected_inverter_day": 0
   },
   {
-   "date_day": "6-Aug-2022",
+   "grass_cutting_report_date_day": "6-Aug-2022",
    "total_operational_minutes_irradiation_greater_than_100_day": 695,
    "rmu_number_day": 0,
    "rmu_breakdown_minutes_day": 0,
@@ -1192,7 +1192,7 @@
    "transmission_line_no_of_effected_inverter_day": 0
   },
   {
-   "date_day": "7-Aug-2022",
+   "grass_cutting_report_date_day": "7-Aug-2022",
    "total_operational_minutes_irradiation_greater_than_100_day": 677,
    "rmu_number_day": 0,
    "rmu_breakdown_minutes_day": 0,
@@ -1226,7 +1226,7 @@
    "transmission_line_no_of_effected_inverter_day": 0
   },
   {
-   "date_day": "8-Aug-2022",
+   "grass_cutting_report_date_day": "8-Aug-2022",
    "total_operational_minutes_irradiation_greater_than_100_day": 685,
    "rmu_number_day": 0,
    "rmu_breakdown_minutes_day": 0,
@@ -1260,7 +1260,7 @@
    "transmission_line_no_of_effected_inverter_day": 0
   },
   {
-   "date_day": "9-Aug-2022",
+   "grass_cutting_report_date_day": "9-Aug-2022",
    "total_operational_minutes_irradiation_greater_than_100_day": 629,
    "rmu_number_day": 0,
    "rmu_breakdown_minutes_day": 0,
@@ -1294,7 +1294,7 @@
    "transmission_line_no_of_effected_inverter_day": 0
   },
   {
-   "date_day": "10-Aug-2022",
+   "grass_cutting_report_date_day": "10-Aug-2022",
    "total_operational_minutes_irradiation_greater_than_100_day": 686,
    "rmu_number_day": 0,
    "rmu_breakdown_minutes_day": 0,
@@ -1328,7 +1328,7 @@
    "transmission_line_no_of_effected_inverter_day": 40
   },
   {
-   "date_day": "11-Aug-2022",
+   "grass_cutting_report_date_day": "11-Aug-2022",
    "total_operational_minutes_irradiation_greater_than_100_day": 677,
    "rmu_number_day": 0,
    "rmu_breakdown_minutes_day": 0,
@@ -1362,7 +1362,7 @@
    "transmission_line_no_of_effected_inverter_day": 40
   },
   {
-   "date_day": "12-Aug-2022",
+   "grass_cutting_report_date_day": "12-Aug-2022",
    "total_operational_minutes_irradiation_greater_than_100_day": 616,
    "rmu_number_day": 0,
    "rmu_breakdown_minutes_day": 0,
@@ -1396,7 +1396,7 @@
    "transmission_line_no_of_effected_inverter_day": 40
   },
   {
-   "date_day": "13-Aug-2022",
+   "grass_cutting_report_date_day": "13-Aug-2022",
    "total_operational_minutes_irradiation_greater_than_100_day": 653,
    "rmu_number_day": 0,
    "rmu_breakdown_minutes_day": 0,
@@ -1430,7 +1430,7 @@
    "transmission_line_no_of_effected_inverter_day": 0
   },
   {
-   "date_day": "14-Aug-2022",
+   "grass_cutting_report_date_day": "14-Aug-2022",
    "total_operational_minutes_irradiation_greater_than_100_day": 539,
    "rmu_number_day": 0,
    "rmu_breakdown_minutes_day": 0,
@@ -1464,7 +1464,7 @@
    "transmission_line_no_of_effected_inverter_day": 0
   },
   {
-   "date_day": "15-Aug-2022",
+   "grass_cutting_report_date_day": "15-Aug-2022",
    "total_operational_minutes_irradiation_greater_than_100_day": 674,
    "rmu_number_day": 0,
    "rmu_breakdown_minutes_day": 0,
@@ -1498,7 +1498,7 @@
    "transmission_line_no_of_effected_inverter_day": 0
   },
   {
-   "date_day": "16-Aug-2022",
+   "grass_cutting_report_date_day": "16-Aug-2022",
    "total_operational_minutes_irradiation_greater_than_100_day": 706,
    "rmu_number_day": 0,
    "rmu_breakdown_minutes_day": 0,
@@ -1532,7 +1532,7 @@
    "transmission_line_no_of_effected_inverter_day": 0
   },
   {
-   "date_day": "17-Aug-2022",
+   "grass_cutting_report_date_day": "17-Aug-2022",
    "total_operational_minutes_irradiation_greater_than_100_day": 655,
    "rmu_number_day": 0,
    "rmu_breakdown_minutes_day": 0,
@@ -1566,7 +1566,7 @@
    "transmission_line_no_of_effected_inverter_day": 0
   },
   {
-   "date_day": "18-Aug-2022",
+   "grass_cutting_report_date_day": "18-Aug-2022",
    "total_operational_minutes_irradiation_greater_than_100_day": 597,
    "rmu_number_day": 0,
    "rmu_breakdown_minutes_day": 0,
@@ -1600,7 +1600,7 @@
    "transmission_line_no_of_effected_inverter_day": 0
   },
   {
-   "date_day": "19-Aug-2022",
+   "grass_cutting_report_date_day": "19-Aug-2022",
    "total_operational_minutes_irradiation_greater_than_100_day": 579,
    "rmu_number_day": 0,
    "rmu_breakdown_minutes_day": 0,
@@ -1634,7 +1634,7 @@
    "transmission_line_no_of_effected_inverter_day": 0
   },
   {
-   "date_day": "20-Aug-2022",
+   "grass_cutting_report_date_day": "20-Aug-2022",
    "total_operational_minutes_irradiation_greater_than_100_day": 616,
    "rmu_number_day": 0,
    "rmu_breakdown_minutes_day": 0,
@@ -1668,7 +1668,7 @@
    "transmission_line_no_of_effected_inverter_day": 0
   },
   {
-   "date_day": "21-Aug-2022",
+   "grass_cutting_report_date_day": "21-Aug-2022",
    "total_operational_minutes_irradiation_greater_than_100_day": 528,
    "rmu_number_day": 0,
    "rmu_breakdown_minutes_day": 0,
@@ -1702,7 +1702,7 @@
    "transmission_line_no_of_effected_inverter_day": 0
   },
   {
-   "date_day": "22-Aug-2022",
+   "grass_cutting_report_date_day": "22-Aug-2022",
    "total_operational_minutes_irradiation_greater_than_100_day": 566,
    "rmu_number_day": 0,
    "rmu_breakdown_minutes_day": 0,
@@ -1736,7 +1736,7 @@
    "transmission_line_no_of_effected_inverter_day": 0
   },
   {
-   "date_day": "23-Aug-2022",
+   "grass_cutting_report_date_day": "23-Aug-2022",
    "total_operational_minutes_irradiation_greater_than_100_day": 674,
    "rmu_number_day": 0,
    "rmu_breakdown_minutes_day": 0,
@@ -1770,7 +1770,7 @@
    "transmission_line_no_of_effected_inverter_day": 0
   },
   {
-   "date_day": "24-Aug-2022",
+   "grass_cutting_report_date_day": "24-Aug-2022",
    "total_operational_minutes_irradiation_greater_than_100_day": 646,
    "rmu_number_day": 0,
    "rmu_breakdown_minutes_day": 0,
@@ -1804,7 +1804,7 @@
    "transmission_line_no_of_effected_inverter_day": 0
   },
   {
-   "date_day": "25-Aug-2022",
+   "grass_cutting_report_date_day": "25-Aug-2022",
    "total_operational_minutes_irradiation_greater_than_100_day": 681,
    "rmu_number_day": 0,
    "rmu_breakdown_minutes_day": 0,
@@ -1838,7 +1838,7 @@
    "transmission_line_no_of_effected_inverter_day": 0
   },
   {
-   "date_day": "26-Aug-2022",
+   "grass_cutting_report_date_day": "26-Aug-2022",
    "total_operational_minutes_irradiation_greater_than_100_day": 686,
    "rmu_number_day": 0,
    "rmu_breakdown_minutes_day": 0,
@@ -1872,7 +1872,7 @@
    "transmission_line_no_of_effected_inverter_day": 0
   },
   {
-   "date_day": "27-Aug-2022",
+   "grass_cutting_report_date_day": "27-Aug-2022",
    "total_operational_minutes_irradiation_greater_than_100_day": 663,
    "rmu_number_day": 0,
    "rmu_breakdown_minutes_day": 0,
@@ -1906,7 +1906,7 @@
    "transmission_line_no_of_effected_inverter_day": 0
   },
   {
-   "date_day": "28-Aug-2022",
+   "grass_cutting_report_date_day": "28-Aug-2022",
    "total_operational_minutes_irradiation_greater_than_100_day": 612,
    "rmu_number_day": 0,
    "rmu_breakdown_minutes_day": 0,
@@ -1940,7 +1940,7 @@
    "transmission_line_no_of_effected_inverter_day": 0
   },
   {
-   "date_day": "29-Aug-2022",
+   "grass_cutting_report_date_day": "29-Aug-2022",
    "total_operational_minutes_irradiation_greater_than_100_day": 664,
    "rmu_number_day": 0,
    "rmu_breakdown_minutes_day": 0,
@@ -1974,7 +1974,7 @@
    "transmission_line_no_of_effected_inverter_day": 0
   },
   {
-   "date_day": "30-Aug-2022",
+   "grass_cutting_report_date_day": "30-Aug-2022",
    "total_operational_minutes_irradiation_greater_than_100_day": 560,
    "rmu_number_day": 0,
    "rmu_breakdown_minutes_day": 0,
@@ -2008,7 +2008,7 @@
    "transmission_line_no_of_effected_inverter_day": 0
   },
   {
-   "date_day": "31-Aug-2022",
+   "grass_cutting_report_date_day": "31-Aug-2022",
    "total_operational_minutes_irradiation_greater_than_100_day": 551,
    "rmu_number_day": 0,
    "rmu_breakdown_minutes_day": 0,
@@ -2042,7 +2042,7 @@
    "transmission_line_no_of_effected_inverter_day": 0
   },
   {
-   "date_day": "1-Sep-2022",
+   "grass_cutting_report_date_day": "1-Sep-2022",
    "total_operational_minutes_irradiation_greater_than_100_day": 541,
    "rmu_number_day": 0,
    "rmu_breakdown_minutes_day": 0,
@@ -2074,6 +2074,165 @@
    "transmission_line_breakdown_minutes_day": 0,
    "transmission_line_breakdown_minutes_irradiation_greater_than_100_day": 0,
    "transmission_line_no_of_effected_inverter_day": 0
+  }
+ ]
+ ,
+ "grass_cutting":
+ [
+  {
+   "grass_cutting_report_date": "03/08/2022",
+   "grass_cutting_report_daily_in_acres": 1.73,
+   "grass_cutting_report_mtd_in_acres": 1.73
+  },
+  {
+   "grass_cutting_report_date": "03/08/2022",
+   "grass_cutting_report_daily_in_acres": null,
+   "grass_cutting_report_mtd_in_acres": 1.73
+  },
+  {
+   "grass_cutting_report_date": "03/08/2022",
+   "grass_cutting_report_daily_in_acres": null,
+   "grass_cutting_report_mtd_in_acres": 1.73
+  },
+  {
+   "grass_cutting_report_date": "03/08/2022",
+   "grass_cutting_report_daily_in_acres": null,
+   "grass_cutting_report_mtd_in_acres": 1.73
+  },
+  {
+   "grass_cutting_report_date": "03/08/2022",
+   "grass_cutting_report_daily_in_acres": null,
+   "grass_cutting_report_mtd_in_acres": 1.73
+  },
+  {
+   "grass_cutting_report_date": "03/08/2022",
+   "grass_cutting_report_daily_in_acres": null,
+   "grass_cutting_report_mtd_in_acres": 1.73
+  },
+  {
+   "grass_cutting_report_date": "03/08/2022",
+   "grass_cutting_report_daily_in_acres": null,
+   "grass_cutting_report_mtd_in_acres": 1.73
+  },
+  {
+   "grass_cutting_report_date": "03/08/2022",
+   "grass_cutting_report_daily_in_acres": 0.76,
+   "grass_cutting_report_mtd_in_acres": 2.49
+  },
+  {
+   "grass_cutting_report_date": "03/08/2022",
+   "grass_cutting_report_daily_in_acres": null,
+   "grass_cutting_report_mtd_in_acres": 2.49
+  },
+  {
+   "grass_cutting_report_date": "03/08/2022",
+   "grass_cutting_report_daily_in_acres": 1.1070311303084366,
+   "grass_cutting_report_mtd_in_acres": 3.59703113
+  },
+  {
+   "grass_cutting_report_date": "03/08/2022",
+   "grass_cutting_report_daily_in_acres": 1.2108152987748526,
+   "grass_cutting_report_mtd_in_acres": 4.807846429
+  },
+  {
+   "grass_cutting_report_date": "03/08/2022",
+   "grass_cutting_report_daily_in_acres": 0.8648680705534662,
+   "grass_cutting_report_mtd_in_acres": 5.6727145
+  },
+  {
+   "grass_cutting_report_date": "03/08/2022",
+   "grass_cutting_report_daily_in_acres": null,
+   "grass_cutting_report_mtd_in_acres": 5.6727145
+  },
+  {
+   "grass_cutting_report_date": "03/08/2022",
+   "grass_cutting_report_daily_in_acres": null,
+   "grass_cutting_report_mtd_in_acres": 5.6727145
+  },
+  {
+   "grass_cutting_report_date": "03/08/2022",
+   "grass_cutting_report_daily_in_acres": null,
+   "grass_cutting_report_mtd_in_acres": 5.6727145
+  },
+  {
+   "grass_cutting_report_date": "03/08/2022",
+   "grass_cutting_report_daily_in_acres": null,
+   "grass_cutting_report_mtd_in_acres": 5.6727145
+  },
+  {
+   "grass_cutting_report_date": "03/08/2022",
+   "grass_cutting_report_daily_in_acres": null,
+   "grass_cutting_report_mtd_in_acres": 5.6727145
+  },
+  {
+   "grass_cutting_report_date": "03/08/2022",
+   "grass_cutting_report_daily_in_acres": null,
+   "grass_cutting_report_mtd_in_acres": 5.6727145
+  },
+  {
+   "grass_cutting_report_date": "03/08/2022",
+   "grass_cutting_report_daily_in_acres": null,
+   "grass_cutting_report_mtd_in_acres": 5.6727145
+  },
+  {
+   "grass_cutting_report_date": "03/08/2022",
+   "grass_cutting_report_daily_in_acres": null,
+   "grass_cutting_report_mtd_in_acres": 5.6727145
+  },
+  {
+   "grass_cutting_report_date": "03/08/2022",
+   "grass_cutting_report_daily_in_acres": null,
+   "grass_cutting_report_mtd_in_acres": 5.6727145
+  },
+  {
+   "grass_cutting_report_date": "03/08/2022",
+   "grass_cutting_report_daily_in_acres": null,
+   "grass_cutting_report_mtd_in_acres": 5.6727145
+  },
+  {
+   "grass_cutting_report_date": "03/08/2022",
+   "grass_cutting_report_daily_in_acres": null,
+   "grass_cutting_report_mtd_in_acres": 5.6727145
+  },
+  {
+   "grass_cutting_report_date": "03/08/2022",
+   "grass_cutting_report_daily_in_acres": null,
+   "grass_cutting_report_mtd_in_acres": 5.6727145
+  },
+  {
+   "grass_cutting_report_date": "03/08/2022",
+   "grass_cutting_report_daily_in_acres": null,
+   "grass_cutting_report_mtd_in_acres": 5.6727145
+  },
+  {
+   "grass_cutting_report_date": "03/08/2022",
+   "grass_cutting_report_daily_in_acres": null,
+   "grass_cutting_report_mtd_in_acres": 5.6727145
+  },
+  {
+   "grass_cutting_report_date": "03/08/2022",
+   "grass_cutting_report_daily_in_acres": null,
+   "grass_cutting_report_mtd_in_acres": 5.6727145
+  },
+  {
+   "grass_cutting_report_date": "03/08/2022",
+   "grass_cutting_report_daily_in_acres": null,
+   "grass_cutting_report_mtd_in_acres": 5.6727145
+  },
+  {
+   "grass_cutting_report_date": "03/08/2022",
+   "grass_cutting_report_daily_in_acres": null,
+   "grass_cutting_report_mtd_in_acres": 5.6727145
+  },
+  {
+   "grass_cutting_report_date": "03/08/2022",
+   "grass_cutting_report_daily_in_acres": null,
+   "grass_cutting_report_mtd_in_acres": 5.6727145
+  },
+  {
+   "grass_cutting_report_date": "03/08/2022",
+   "grass_cutting_report_daily_in_acres": null,
+   "grass_cutting_report_mtd_in_acres": 5.6727145
   }
  ]
 }

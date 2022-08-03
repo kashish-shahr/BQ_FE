@@ -62,11 +62,11 @@ export class SiteInputComponent implements OnInit {
 
  	
   submitDgrData() {
-    let body: Data = this.fg_siteInput.value;
+    let body: any = this.fg_siteInput.value;
     // this._siteInputService.addAllDgrData(body).subscribe(data=>{
 
     // })
-    this._siteInputService.addAllDgrData(body);
+    this._siteInputService.addAllDgrSiteInputData(body);
     this._router.navigate(['']);
   }
 }
