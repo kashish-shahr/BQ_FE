@@ -1,6 +1,10 @@
 mat-form-field{
-    width: auto;
+    width: 25rem;
 }
+.day_night{
+  width: auto;
+}
+
 
 span{
     font-size: 80%;

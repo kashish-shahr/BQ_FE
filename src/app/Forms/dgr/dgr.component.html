@@ -1,27 +1,28 @@
 
+  <div class="dgr_buttons">
   <button mat-raised-button (click)="addStudent()">Add Data</button>
   <button mat-raised-button (click)=" goToCharts()">Display charts</button>
-  
-
+</div>
   <main>
-    <div class="mat-elevation-z8">
-      <table mat-table [dataSource]="dataSource">
-    
-        <!-- Position Column -->
-        <ng-container matColumnDef="ir">
-          <!-- inverter_reading -->
-          <th mat-header-cell *matHeaderCellDef> Total Generation (Inverter Reading) </th>
-          <td mat-cell *matCellDef="let element"> {{element.inverter_reading}} </td>
-        </ng-container>
- 
-        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
-        <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
-      </table>
-    
-      <mat-paginator [pageSizeOptions]="[5, 10, 20]"
-                     showFirstLastButtons 
-                     aria-label="Select page of periodic elements">
-      </mat-paginator>
-    </div>
-    
-  </main>
+  <mat-form-field class="dgr_select" appearance="fill">
+    <mat-label>Choose A sheet to see it's data</mat-label>
+    <mat-select (selectionChange)="onChange($event)">
+      <mat-option value="site_input">
+      Site Input
+      </mat-option>
+      <mat-option value="availability">
+        Availability
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+  
+  <div>
+    <app-site-input-display *ngIf="si_flag"></app-site-input-display>
+    <app-availability-display *ngIf="av_flag"></app-availability-display>
+  </div>
+</main>
+
+
+
+
+  

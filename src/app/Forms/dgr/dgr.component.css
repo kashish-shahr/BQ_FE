@@ -1,4 +1,6 @@
-table {
-    width: 100%;
-  }
-  
+.dgr_buttons{
+    margin: 1rem auto;
+}
+.dgr_select{
+    width: 17rem;
+}

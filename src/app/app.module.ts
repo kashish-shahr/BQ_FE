@@ -37,6 +37,8 @@ import {MatPaginatorModule} from '@angular/material/paginator';
 import { SiteInputComponent } from './dgr/add-dgr/site-input/site-input.component';
 import { AvailabilityComponent } from './dgr/add-dgr/availability/availability.component';
 import { CustomInputComponent } from './Shared/Elements/custom-input/custom-input.component';
+import { SiteInputDisplayComponent } from './Forms/dgr/site-input-display/site-input-display.component';
+import { AvailabilityDisplayComponent } from './Forms/dgr/availability-display/availability-display.component';
 
 
 @NgModule({
@@ -59,6 +61,8 @@ import { CustomInputComponent } from './Shared/Elements/custom-input/custom-inpu
     SiteInputComponent,
     AvailabilityComponent,
     CustomInputComponent,
+    SiteInputDisplayComponent,
+    AvailabilityDisplayComponent,
     
   ],
   imports: [

@@ -47,7 +47,7 @@ export class SiteInputComponent implements OnInit {
       no_of_people_entering_plant_premises : new FormControl(null,  ),
       irradiation_ghi : new FormControl(null,  ),
       tankers_entered_in_plant : new FormControl(null,  ),
-      capacity_Tanker : new FormControl(null,  ),
+      capacity_tanker : new FormControl(null,  ),
       available_water_in_tanker_exits : new FormControl(null,  ),
       gii_wms_01 : new FormControl(null,  ),
       gii_wms_02 : new FormControl(null,  ),

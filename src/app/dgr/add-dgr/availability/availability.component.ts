@@ -40,6 +40,10 @@ export class AvailabilityComponent implements OnInit {
       dt_breakdown_minutes_irradiation_greater_than_100_day : new FormControl(null,  ),
       dt_no_of_effected_inverter_day : new FormControl(null,  ),
       
+      inv_number_day : new FormControl(null,  ),
+      inv_breakdown_minutes_day : new FormControl(null,  ),
+      inv_breakdown_minutes_irradiation_greater_than_100_day : new FormControl(null,  ),
+      
       scb_breakdown_minutes_day : new FormControl(null,  ),
       scb_breakdown_minutes_irradiation_greater_than_100_day : new FormControl(null,  ),
       scb_no_of_strings_day : new FormControl(null,  ),
@@ -63,9 +67,6 @@ export class AvailabilityComponent implements OnInit {
       transmission_line_breakdown_minutes_day : new FormControl(null,  ),
       transmission_line_breakdown_minutes_irradiation_greater_than_100_day : new FormControl(null,  ),
       transmission_line_no_of_effected_inverter_day : new FormControl(null,  ),
-      inv_number_day : new FormControl(null,  ),
-      inv_breakdown_minutes_day : new FormControl(null,  ),
-      inv_breakdown_minutes_irradiation_greater_than_100_day : new FormControl(null,  ),
       
     });
     this.fg_availability_night = this._formBuilder.group({

@@ -17,10 +17,13 @@ export class DgrDataService {
   addAllDgrData(body:Data){
     console.log("service",body);
     this.siteInputData=body;
-    return this._http.post("http://localhost:3000/dgr",body,{headers:this.x});
+    return this._http.post("http://localhost:3000/site_input",body,{headers:this.x});
 
   }
   getAllDgrSiteInputData(){
-    return this._http.get("http://localhost:3000/dgr");;
+    return this._http.get("http://localhost:3000/site_input");;
+  }
+  getAllDgrAvailabilityData(){
+    return this._http.get("http://localhost:3000/availability");;
   }
 }
