@@ -34,11 +34,12 @@ import { FooterComponent } from './Shared/layout/footer/footer.component';
 import { DashboardComponent } from './Pages/dashboard/dashboard.component';
 import { AddDgrComponent } from './Forms/dgr/add-dgr/add-dgr.component';
 import {MatPaginatorModule} from '@angular/material/paginator';
-import { SiteInputComponent } from './dgr/add-dgr/site-input/site-input.component';
-import { AvailabilityComponent } from './dgr/add-dgr/availability/availability.component';
+import { SiteInputComponent } from './Forms/dgr/SiteInput/site-input/site-input.component';
+import { AvailabilityComponent } from './Forms/dgr/Availability/availability/availability.component';
 import { CustomInputComponent } from './Shared/Elements/custom-input/custom-input.component';
-import { SiteInputDisplayComponent } from './Forms/dgr/site-input-display/site-input-display.component';
-import { AvailabilityDisplayComponent } from './Forms/dgr/availability-display/availability-display.component';
+import { SiteInputDisplayComponent } from './Forms/dgr/SiteInput/site-input-display/site-input-display.component';
+import { AvailabilityDisplayComponent } from './Forms/dgr/Availability/availability-display/availability-display.component';
+
 
 
 @NgModule({

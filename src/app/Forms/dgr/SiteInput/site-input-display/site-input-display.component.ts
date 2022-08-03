@@ -1,7 +1,8 @@
 import { Component, OnInit,ViewChild } from '@angular/core';
 import { MatPaginator } from '@angular/material/paginator';
 import { MatTableDataSource } from '@angular/material/table';
-import { DgrDataService } from '../../dgr-data.service';
+import { DgrDataService } from 'src/app/Forms/dgr-data.service';
+
 
 
 @Component({
