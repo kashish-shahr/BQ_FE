@@ -16,6 +16,9 @@
       <mat-option value="grass_cutting_report">
         Grass Cutting Report
       </mat-option>
+      <mat-option value="block_wise_module_cleaning">
+        Block Wise Module Cleaning
+      </mat-option>
     </mat-select>
   </mat-form-field>
   
@@ -23,6 +26,7 @@
     <app-site-input-display *ngIf="si_flag"></app-site-input-display>
     <app-availability-display *ngIf="av_flag"></app-availability-display>
     <app-grass-cutting-display *ngIf="gcr_flag"></app-grass-cutting-display>
+    <app-block-wise-module-cleaning-display *ngIf="bwmc_flag"></app-block-wise-module-cleaning-display>
   </div>
 </main>
 

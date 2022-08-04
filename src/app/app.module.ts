@@ -43,6 +43,9 @@ import { AvailabilityDisplayComponent } from './Forms/dgr/Availability/availabil
 import { GrassCuttingDisplayComponent } from './Forms/dgr/GrassCutting/grass-cutting-display/grass-cutting-display.component';
 import { GrassCuttingAddComponent } from './Forms/dgr/GrassCutting/grass-cutting-add/grass-cutting-add.component';
 
+import { BlockWiseModuleCleaningDisplayComponent } from './Forms/dgr/BlockWiseModuleCleaning/block-wise-module-cleaning-display/block-wise-module-cleaning-display.component';
+import { BlockWiseModuleCleaningAddComponent } from './Forms/dgr/BlockWiseModuleCleaning/block-wise-module-cleaning-add/block-wise-module-cleaning-add.component';
+
 
 
 @NgModule({
@@ -70,6 +73,9 @@ import { GrassCuttingAddComponent } from './Forms/dgr/GrassCutting/grass-cutting
     
     GrassCuttingDisplayComponent,
     GrassCuttingAddComponent,
+    
+    BlockWiseModuleCleaningDisplayComponent,
+    BlockWiseModuleCleaningAddComponent,
     
   ],
   imports: [

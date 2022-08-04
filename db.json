@@ -2235,4 +2235,107 @@
    "grass_cutting_report_mtd_in_acres": 5.6727145
   }
  ]
+ ,
+  "block_wise_module_cleaning": 
+  [
+    {
+      "block2_sam_wet": 2160,
+      "block6_sam_wet": 5520,
+      "block8_sam_wet": 3960
+    },
+    {
+      "block2_sam_wet": 3280,
+      "block6_sam_wet": 8320,
+      "block7_sam_wet": 760
+    },
+    {
+      "block2_sam_wet": 1920,
+      "block6_sam_wet": 480,
+      "block7_sam_wet": 11760
+    },
+    {
+      "block9_manual": 3840
+    },
+    {
+      "block2_sam_wet": 2240,
+      "block6_sam_wet": 320,
+      "block7_sam_wet": 7000,
+      "block9_manual": 4080
+    },
+    {
+      "block2_sam_wet": 4560,
+      "block5_sam_wet": 520,
+      "block6_sam_wet": 1160,
+      "block7_sam_wet": 0,
+      "block9_manual": 1880
+    },
+    {
+      "block9_manual": 4160
+    },
+    {
+      "block9_manual": 2000
+    },
+    {
+      "block9_manual": 2880
+    },
+    {
+      "block2_sam_wet": 1680,
+      "block5_sam_wet": 4400,
+      "block6_sam_wet": 200,
+      "block10_manual": 2880
+    },
+    {
+      "block5_sam_wet": 7120
+    },
+    {
+      "block1_sam_wet": 2160,
+      "block5_sam_wet": 6600
+    },
+    {
+      "block1_sam_wet": 11960
+    },
+    {
+      "block1_sam_wet": 5080
+    },
+    {
+      "block10_sam_wet": 10280
+    },
+    {
+      "block2_sam_wet": 1440,
+      "block6_sam_wet": 1560,
+      "block10_sam_wet": 6520
+    },
+    {
+      "block8_sam_wet": 8200
+    },
+    {
+      "block6_sam_wet": 1360,
+      "block8_sam_wet": 6440
+    },
+    {
+      "block2_sam_wet": 2160,
+      "block6_sam_wet": 5800,
+      "block8_sam_wet": 5040
+    },
+    {
+      "block2_sam_wet": 3760,
+      "block6_sam_wet": 320,
+      "block7_sam_wet": 7000
+    },
+    {
+      "block2_sam_wet": 5120,
+      "block5_sam_wet": 3000,
+      "block6_sam_wet": 1360,
+      "block7_sam_wet": 0
+    },
+    {
+      "block5_sam_wet": 8640
+    },
+    {
+      "block2_sam_wet": 1280,
+      "block6_sam_wet": 5040,
+      "block7_sam_wet": 760
+    }
+  ] 
+
 }
