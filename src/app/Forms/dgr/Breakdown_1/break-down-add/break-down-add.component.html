@@ -1,0 +1,247 @@
+<!-- SAM 	Daily (In Acres)	MTD ( In Acres) -->
+
+<mat-toolbar>
+    <span>Enter Below Fields to fill Excell for DGR Block Wise Module Cleaning JHANSI</span>
+  </mat-toolbar>
+  <br /> 
+  
+  <main >
+    <form   class="active" [formGroup]="fg_break_down" action="">
+      <div class="container addDgrContainer">
+        
+        <section>
+            <p> 
+                <mat-form-field appearance="fill" floatLabel="always">
+                  <mat-label> Date</mat-label>
+                  <input
+                    formControlName="date"
+                    matInput
+                    type="date"
+                     
+                  />
+                </mat-form-field>
+              </p>
+      <p> 
+                <mat-form-field appearance="fill" floatLabel="always">
+                  <mat-label> CATEGORY OF BREAKDOWN STATE</mat-label>
+                  <input
+                    formControlName="category_of_breakdown_state"
+                    matInput
+                    type="text"
+                    placeholder="Plant / Grid"
+                  />
+                </mat-form-field>
+              </p>
+      <p> 
+                <mat-form-field appearance="fill" floatLabel="always">
+                  <mat-label>CATEGORY OF BREAKDOWN COMPONENT</mat-label>
+                  <input
+                    formControlName="category_of_breakdown_component"
+                    matInput
+                    type="text"
+                    placeholder="enter breakdown component"
+                  />
+                </mat-form-field>
+              </p>
+      <p> 
+                <mat-form-field appearance="fill" floatLabel="always">
+                  <mat-label>CATEGORY OF SUB COMPONENT </mat-label>
+                  <input
+                    formControlName="category_sub_component"
+                    matInput
+                    type="text"
+                    placeholder="enter sub component"
+                  />
+                </mat-form-field>
+              </p>
+      <p> 
+                <mat-form-field appearance="fill" floatLabel="always">
+                  <mat-label>BLOCK </mat-label>
+                  <input
+                    formControlName="block"
+                    matInput
+                    type="text"
+                    
+                  />
+                </mat-form-field>
+              </p>
+      <p> 
+                <mat-form-field appearance="fill" floatLabel="always">
+                  <mat-label>ASB </mat-label>
+                  <input
+                    formControlName="asb"
+                    matInput
+                    type="text"
+                    
+                  />
+                </mat-form-field>
+              </p>
+      <p> 
+                <mat-form-field appearance="fill" floatLabel="always">
+                  <mat-label>INVERTER </mat-label>
+                  <input
+                    formControlName="inverter"
+                    matInput
+                    type="text"
+                    
+                  />
+                </mat-form-field>
+              </p>
+      <p> 
+                <mat-form-field appearance="fill" floatLabel="always">
+                  <mat-label>BD TYPE </mat-label>
+                  <input
+                    formControlName="bd_type"
+                    matInput
+                    type="text"
+                    
+                  />
+                </mat-form-field>
+              </p>
+      <p> 
+                <mat-form-field appearance="fill" floatLabel="always">
+                  <mat-label> DC CAPACITY DOWN(KW)</mat-label>
+                  <input
+                    formControlName="dc_capacity_down_kw"
+                    matInput
+                    type="text"
+                    
+                  />
+                </mat-form-field>
+              </p>
+      <p> 
+                <mat-form-field appearance="fill" floatLabel="always">
+                  <mat-label> DOWNTIME</mat-label>
+                  <input
+                    formControlName="downtime"
+                    matInput
+                    type="time"
+                    step="1"
+                    
+                  />
+                </mat-form-field>
+              </p>
+      <p> 
+                <mat-form-field appearance="fill" floatLabel="always">
+                  <mat-label>UPTIME </mat-label>
+                  <input
+                    formControlName="uptime"
+                    matInput
+                    type="time"
+                    step="1"
+                    
+                  />
+                </mat-form-field>
+              </p>
+      <p> 
+                <mat-form-field appearance="fill" floatLabel="always">
+                  <mat-label>Error code </mat-label>
+                  <input
+                    formControlName="totaltime_hrs"
+                    matInput
+                    type="number"
+                    
+                    
+                  />
+                </mat-form-field>
+              </p>
+      <p> 
+                <mat-form-field appearance="fill" floatLabel="always">
+                  <mat-label>SAP Breakdown/Corrective Maintenance Order No-PW01 (11 Digit Number) </mat-label>
+                  <input
+                    formControlName="error_code"
+                    matInput
+                    type="text"
+                    
+                  />
+                </mat-form-field>
+              </p>
+      <p> 
+                <mat-form-field appearance="fill" floatLabel="always">
+                  <mat-label>FaultDescription </mat-label>
+                  <input
+                    formControlName="sap_breakdown_or_corrective_maintenance_order_no_pw0_11_digit_number"
+                    matInput
+                    type="text"
+                    
+                  />
+                </mat-form-field>
+              </p>
+      <p> 
+                <mat-form-field appearance="fill" floatLabel="always">
+                  <mat-label>FaultDescription </mat-label>
+                  <input
+                    formControlName="fault_description"
+                    matInput
+                    type="text"
+                    
+                  />
+                </mat-form-field>
+              </p>
+      <p> 
+                <mat-form-field appearance="fill" floatLabel="always">
+                  <mat-label>Actiontaken </mat-label>
+                  <input
+                    formControlName="actiontaken"
+                    matInput
+                    type="text"
+                    
+                  />
+                </mat-form-field>
+              </p>
+      <p> 
+                <mat-form-field appearance="fill" floatLabel="always">
+                  <mat-label>Other Remarks (if any) </mat-label>
+                  <input
+                    formControlName="other_remarks_if_any"
+                    matInput
+                    type="text"
+                    
+                  />
+                </mat-form-field>
+              </p>
+      <p> 
+                <mat-form-field appearance="fill" floatLabel="always">
+                  <mat-label>ACC GII(KWh/M2) when Stop</mat-label>
+                  <input
+                    formControlName="acc_gii_kwh_or_m2_when_stop"
+                    matInput
+                    type="number"
+                    placeholder="0.0"
+                    
+                  />
+                </mat-form-field>
+              </p>
+      <p> 
+                <mat-form-field appearance="fill" floatLabel="always">
+                  <mat-label> ACC GII(KWh/M2) when Start</mat-label>
+                  <input
+                    formControlName="acc_gii_kwh_or_m2_when_start"
+                    matInput
+                    type="number"
+                    placeholder="0.0"
+                    
+                  />
+                </mat-form-field>
+              </p>
+      <p> 
+                <mat-form-field appearance="fill" floatLabel="always">
+                  <mat-label>BD Loss KWH </mat-label>
+                  <input
+                    formControlName="bd_loss_kwh"
+                    matInput
+                    type="number"
+                    placeholder="0.0"
+                    
+                  />
+                </mat-form-field>
+              </p>
+
+        </section>
+  
+    </div>
+    <button (click)="submitDgrData()" [disabled]="fg_break_down.invalid" mat-stroked-button color="primary">Submit</button>
+
+    </form>
+
+  </main>

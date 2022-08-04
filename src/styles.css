@@ -2,3 +2,18 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+table {
+    width: 100%;
+  }
+  table,th,td{
+    border:1px solid black;
+    text-align: center;
+  }
+  
+  td{
+    width: 3rem;
+  }
+  mat-form-field{
+    width: 25rem;
+}
+  

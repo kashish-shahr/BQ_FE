@@ -1,0 +1,252 @@
+<main>
+  <div class="mat-elevation-z8">
+    <table mat-table [dataSource]="dataSource">
+      <!-- Position Column -->
+      <ng-container matColumnDef="inverter_reading">
+        <!-- inverter_reading -->
+        <th mat-header-cell *matHeaderCellDef>
+          Total Generation (Inverter Reading)
+        </th>
+        <td mat-cell *matCellDef="let element">
+          {{ element.inverter_reading }}
+        </td>
+      </ng-container>
+      <ng-container matColumnDef="meter_reading">
+        <!-- inverter_reading -->
+        <th mat-header-cell *matHeaderCellDef>
+          Total Generation (Meter Reading)
+        </th>
+        <td mat-cell *matCellDef="let element">{{ element.meter_reading }}</td>
+      </ng-container>
+      <ng-container matColumnDef="auxilary_consumptions">
+        <!-- inverter_reading -->
+        <th mat-header-cell *matHeaderCellDef>
+          Auxilary Consumptions (Non generation hours)
+        </th>
+        <td mat-cell *matCellDef="let element">
+          {{ element.auxilary_consumptions }}
+        </td>
+      </ng-container>
+      <ng-container matColumnDef="reactive_power_import">
+        <!-- inverter_reading -->
+        <th mat-header-cell *matHeaderCellDef>Reactive Power Import</th>
+        <td mat-cell *matCellDef="let element">
+          {{ element.reactive_power_import }}
+        </td>
+      </ng-container>
+      <ng-container matColumnDef="peak_power_generated">
+        <!-- inverter_reading -->
+        <th mat-header-cell *matHeaderCellDef>Peak Power Generated</th>
+        <td mat-cell *matCellDef="let element">
+          {{ element.peak_power_generated }}
+        </td>
+      </ng-container>
+      <ng-container matColumnDef="irradiation">
+        <!-- inverter_reading -->
+        <th mat-header-cell *matHeaderCellDef>Irradiation</th>
+        <td mat-cell *matCellDef="let element">{{ element.irradiation }}</td>
+      </ng-container>
+      <ng-container matColumnDef="average_frequency">
+        <!-- inverter_reading -->
+        <th mat-header-cell *matHeaderCellDef>Average Frequency</th>
+        <td mat-cell *matCellDef="let element">
+          {{ element.average_frequency }}
+        </td>
+      </ng-container>
+      <ng-container matColumnDef="no_of_inverters_with_sy_10_of_average">
+        <!-- inverter_reading -->
+        <th mat-header-cell *matHeaderCellDef>
+          No. of Inverters with SY < 10% of Average
+        </th>
+        <td mat-cell *matCellDef="let element">
+          {{ element.no_of_inverters_with_sy_10_of_average }}
+        </td>
+      </ng-container>
+      <!-- 				 		-->
+
+      <ng-container matColumnDef="average_inverter_efficiency">
+        <!-- inverter_reading -->
+        <th mat-header-cell *matHeaderCellDef>Average Inverter Efficiency</th>
+        <td mat-cell *matCellDef="let element">
+          {{ element.average_inverter_efficiency }}
+        </td>
+      </ng-container>
+      <ng-container matColumnDef="no_of_time_with_forecast_deviation_10">
+        <!-- inverter_reading -->
+        <th mat-header-cell *matHeaderCellDef>
+          No. of Time with Forecast deviation > 10%
+        </th>
+        <td mat-cell *matCellDef="let element">
+          {{ element.no_of_time_with_forecast_deviation_10 }}
+        </td>
+      </ng-container>
+      <ng-container matColumnDef="hours_spent_on_pm">
+        <!-- inverter_reading -->
+        <th mat-header-cell *matHeaderCellDef>Hours Spent on PM</th>
+        <td mat-cell *matCellDef="let element">
+          {{ element.hours_spent_on_pm }}
+        </td>
+      </ng-container>
+      <ng-container matColumnDef="hours_spent_on_cm">
+        <!-- inverter_reading -->
+        <th mat-header-cell *matHeaderCellDef>Hours spent on CM</th>
+        <td mat-cell *matCellDef="let element">
+          {{ element.hours_spent_on_cm }}
+        </td>
+      </ng-container>
+
+      <ng-container matColumnDef="no_of_cm_notifications_created">
+        <!-- inverter_reading -->
+        <th mat-header-cell *matHeaderCellDef>
+          No. of CM Notifications created
+        </th>
+        <td mat-cell *matCellDef="let element">
+          {{ element.no_of_cm_notifications_created }}
+        </td>
+      </ng-container>
+      <ng-container matColumnDef="no_of_cm_tickets_closed">
+        <!-- inverter_reading -->
+        <th mat-header-cell *matHeaderCellDef>No. of CM Tickets closed</th>
+        <td mat-cell *matCellDef="let element">
+          {{ element.no_of_cm_tickets_closed }}
+        </td>
+      </ng-container>
+      <ng-container matColumnDef="no_of_cm_tickets_received_from_ronc">
+        <!-- inverter_reading -->
+        <th mat-header-cell *matHeaderCellDef>
+          No. of CM Tickets received from RONC
+        </th>
+        <td mat-cell *matCellDef="let element">
+          {{ element.no_of_cm_tickets_received_from_ronc }}
+        </td>
+      </ng-container>
+      <ng-container matColumnDef="soiling_loss">
+        <!-- inverter_reading -->
+        <th mat-header-cell *matHeaderCellDef>Soiling Loss</th>
+        <td mat-cell *matCellDef="let element">{{ element.soiling_loss }}</td>
+      </ng-container>
+
+      <ng-container matColumnDef="no_of_modules_cleaned">
+        <!-- inverter_reading -->
+        <th mat-header-cell *matHeaderCellDef>No. of Modules Cleaned</th>
+        <td mat-cell *matCellDef="let element">
+          {{ element.no_of_modules_cleaned }}
+        </td>
+      </ng-container>
+      <ng-container matColumnDef="no_of_strings_monitored">
+        <!-- inverter_reading -->
+        <th mat-header-cell *matHeaderCellDef>No. of Strings Monitored</th>
+        <td mat-cell *matCellDef="let element">
+          {{ element.no_of_strings_monitored }}
+        </td>
+      </ng-container>
+      <ng-container matColumnDef="module_temp">
+        <!-- inverter_reading -->
+        <th mat-header-cell *matHeaderCellDef>Module Temp</th>
+        <td mat-cell *matCellDef="let element">{{ element.module_temp }}</td>
+      </ng-container>
+      <ng-container matColumnDef="ambient_temp">
+        <!-- inverter_reading -->
+        <th mat-header-cell *matHeaderCellDef>Ambient Temp.</th>
+        <td mat-cell *matCellDef="let element">{{ element.ambient_temp }}</td>
+      </ng-container>
+      <ng-container matColumnDef="wind_speed">
+        <!-- inverter_reading -->
+        <th mat-header-cell *matHeaderCellDef>wind speed</th>
+        <td mat-cell *matCellDef="let element">{{ element.wind_speed }}</td>
+      </ng-container>
+      <ng-container matColumnDef="no_of_people_entering_plant_premises">
+        <!-- inverter_reading -->
+        <th mat-header-cell *matHeaderCellDef>
+          No. of people entering plant premises
+        </th>
+        <td mat-cell *matCellDef="let element">
+          {{ element.no_of_people_entering_plant_premises }}
+        </td>
+      </ng-container>
+
+      <!-- 															TDS	Rain -->
+
+      <ng-container matColumnDef="irradiation_ghi">
+        <!-- inverter_reading -->
+        <th mat-header-cell *matHeaderCellDef>Irradiation (GHI)</th>
+        <td mat-cell *matCellDef="let element">
+          {{ element.irradiation_ghi }}
+        </td>
+      </ng-container>
+      <ng-container matColumnDef="tankers_entered_in_plant">
+        <!-- inverter_reading -->
+        <th mat-header-cell *matHeaderCellDef>Tankers entered in Plant</th>
+        <td mat-cell *matCellDef="let element">
+          {{ element.tankers_entered_in_plant }}
+        </td>
+      </ng-container>
+      <ng-container matColumnDef="capacity_tanker">
+        <!-- inverter_reading -->
+        <th mat-header-cell *matHeaderCellDef>Capacity / Tanker</th>
+        <td mat-cell *matCellDef="let element">
+          {{ element.capacity_tanker }}
+        </td>
+      </ng-container>
+      <ng-container matColumnDef="available_water_in_tanker_exits">
+        <!-- inverter_reading -->
+        <th mat-header-cell *matHeaderCellDef>
+          Available Water in Tanker (When Tanker exits from Plant)
+        </th>
+        <td mat-cell *matCellDef="let element">
+          {{ element.available_water_in_tanker_exits }}
+        </td>
+      </ng-container>
+      <ng-container matColumnDef="gii_wms_01">
+        <!-- inverter_reading -->
+        <th mat-header-cell *matHeaderCellDef>GII WMS-01</th>
+        <td mat-cell *matCellDef="let element">{{ element.gii_wms_01 }}</td>
+      </ng-container>
+      <ng-container matColumnDef="gii_wms_02">
+        <!-- inverter_reading -->
+        <th mat-header-cell *matHeaderCellDef>GII WMS-02</th>
+        <td mat-cell *matCellDef="let element">{{ element.gii_wms_02 }}</td>
+      </ng-container>
+      <ng-container matColumnDef="gii_wms_03">
+        <!-- inverter_reading -->
+        <th mat-header-cell *matHeaderCellDef>GII WMS-03</th>
+        <td mat-cell *matCellDef="let element">{{ element.gii_wms_03 }}</td>
+      </ng-container>
+      <ng-container matColumnDef="sunrise">
+        <!-- inverter_reading -->
+        <th mat-header-cell *matHeaderCellDef>Sunrise</th>
+        <td mat-cell *matCellDef="let element">{{ element.sunrise }}</td>
+      </ng-container>
+      <ng-container matColumnDef="sunset">
+        <!-- inverter_reading -->
+        <th mat-header-cell *matHeaderCellDef>Sunset</th>
+        <td mat-cell *matCellDef="let element">{{ element.sunset }}</td>
+      </ng-container>
+      <ng-container matColumnDef="tds">
+        <!-- inverter_reading -->
+        <th mat-header-cell *matHeaderCellDef>Rain</th>
+        <td mat-cell *matCellDef="let element">{{ element.tds }}</td>
+      </ng-container>
+      <ng-container matColumnDef="rain">
+        <!-- inverter_reading -->
+        <th mat-header-cell *matHeaderCellDef></th>
+        <td mat-cell *matCellDef="let element">{{ element.rain }}</td>
+      </ng-container>
+      <ng-container matColumnDef="installed_dc">
+        <!-- inverter_reading -->
+        <th mat-header-cell *matHeaderCellDef>Installed DC</th>
+        <td mat-cell *matCellDef="let element">{{ element.installed_dc }}</td>
+      </ng-container>
+
+      <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+      <tr mat-row *matRowDef="let row; columns: displayedColumns"></tr>
+    </table>
+
+    <mat-paginator
+      [pageSizeOptions]="[5, 10, 20]"
+      showFirstLastButtons
+       
+    >
+    </mat-paginator>
+  </div>
+</main>

@@ -1,0 +1,55 @@
+<!-- Date	Daily (In Acres)	MTD ( In Acres) -->
+
+<mat-toolbar>
+    <span>Enter Below Fields to fill Excell for DGR Grass cutting report JHANSI</span>
+  </mat-toolbar>
+  <br />
+  
+  <main >
+    <form   class="active" [formGroup]="fg_grasscutting" action="">
+      <div class="container addDgrContainer">
+        <!-- date -->
+        <section>
+          <p> 
+            <mat-form-field appearance="fill" floatLabel="always">
+              <mat-label> Date</mat-label>
+              <input
+                formControlName="grass_cutting_report_date"
+                matInput
+                type="date"
+                placeholder="0"
+              />
+            </mat-form-field>
+          </p>
+        </section>
+  
+        <section>
+            <p>
+              <mat-form-field appearance="fill" floatLabel="always">
+                <mat-label> Daily (In Acres)</mat-label>
+                <input
+                  formControlName="grass_cutting_report_daily_in_acres"
+                  matInput
+                  type="number"
+                  placeholder="0.0"
+                />
+              </mat-form-field>
+            </p>
+            <p>
+              <mat-form-field appearance="fill" floatLabel="always">
+                <mat-label>MTD ( In Acres)</mat-label>
+                <input
+                  formControlName="grass_cutting_report_mtd_in_acres"
+                  matInput
+                  type="number"
+                  placeholder="0.0"
+                />
+              </mat-form-field>
+            </p>
+          </section>
+          <button (click)="submitDgrData()" [disabled]="fg_grasscutting.invalid" mat-stroked-button color="primary">Submit</button>
+        </div>
+
+    </form>
+
+  </main>

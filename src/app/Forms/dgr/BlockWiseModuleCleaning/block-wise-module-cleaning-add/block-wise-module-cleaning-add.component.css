@@ -1,0 +1,21 @@
+mat-form-field{
+    width:auto;
+}
+section{
+    background-color: rgb(245, 243, 243);
+    width: 20rem;
+    text-align: center;
+    padding: 2rem;
+    margin: 1rem;
+}
+.addDgrContainer{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+
+}
+form{
+    text-align: center;
+}

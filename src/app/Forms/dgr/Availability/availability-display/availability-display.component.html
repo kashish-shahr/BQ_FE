@@ -1,0 +1,293 @@
+<main>
+  <div class="mat-elevation-z8">
+    <table mat-table [dataSource]="dataSource">
+      <!--  -->
+      <ng-container matColumnDef="date_day">
+        <!--  -->
+        <th mat-header-cell *matHeaderCellDef>Date</th>
+        <td mat-cell *matCellDef="let element">
+          {{ element.date_day }}
+        </td>
+      </ng-container>
+      <ng-container
+        matColumnDef="total_operational_minutes_irradiation_greater_than_100_day"
+      >
+        <!--  -->
+        <th mat-header-cell *matHeaderCellDef>"Total Operational minutes
+            (when irradiation>100 W/m2)"
+            </th>
+        <td mat-cell *matCellDef="let element">
+          {{
+            element.total_operational_minutes_irradiation_greater_than_100_day
+          }}
+        </td>
+      </ng-container>
+      <ng-container matColumnDef="rmu_number_day">
+        <!--  -->
+        <th mat-header-cell *matHeaderCellDef>RMU 
+            Number</th>
+        <td mat-cell *matCellDef="let element">{{ element.rmu_number_day }}</td>
+      </ng-container>
+      <ng-container matColumnDef="rmu_breakdown_minutes_day">
+        <!--  -->
+        <th mat-header-cell *matHeaderCellDef>Breakdown Minutes</th>
+        <td mat-cell *matCellDef="let element">
+          {{ element.rmu_breakdown_minutes_day }}
+        </td>
+      </ng-container>
+      <ng-container
+        matColumnDef="rmu_breakdown_minutes_irradiation_greater_than_100_day"
+      >
+        <!--  -->
+        <th mat-header-cell *matHeaderCellDef>"Breakdown Minutes
+            (Considering irradiation>100 W/m2)"</th>
+        <td mat-cell *matCellDef="let element">
+          {{ element.rmu_breakdown_minutes_irradiation_greater_than_100_day }}
+        </td>
+      </ng-container>
+      <!-- DT -->
+      <ng-container matColumnDef="rmu_no_of_effected_inverter_day">
+        <!--  -->
+        <th mat-header-cell *matHeaderCellDef>No Of  Effected Inverter</th>
+        <td mat-cell *matCellDef="let element">
+          {{ element.rmu_no_of_effected_inverter_day }}
+        </td>
+      </ng-container>
+
+
+      
+      <ng-container matColumnDef="dt_number_day">
+        <!--  -->
+        <th mat-header-cell *matHeaderCellDef>DT Number</th>
+        <td mat-cell *matCellDef="let element">{{ element.dt_number_day }}</td>
+      </ng-container>
+      <ng-container matColumnDef="dt_breakdown_minutes_day">
+        <!--  -->
+        <th mat-header-cell *matHeaderCellDef>DT-Breakdown Minutes</th>
+        <td mat-cell *matCellDef="let element">
+          {{ element.dt_breakdown_minutes_day }}
+        </td>
+      </ng-container>
+      <ng-container
+        matColumnDef="dt_breakdown_minutes_irradiation_greater_than_100_day"
+      >
+        <!--  -->
+        <th mat-header-cell *matHeaderCellDef>DT-Breakdown Minutes (Considering irradiation>100 W/m2)"</th>
+        <td mat-cell *matCellDef="let element">
+          {{ element.dt_breakdown_minutes_irradiation_greater_than_100_day }}
+        </td>
+      </ng-container>
+
+
+      <ng-container matColumnDef="dt_no_of_effected_inverter_day">
+        <!--  -->
+        <th mat-header-cell *matHeaderCellDef>DT-No Of  Effected Inverter</th>
+        <td mat-cell *matCellDef="let element">
+          {{ element.dt_no_of_effected_inverter_day }}
+        </td>
+      </ng-container>
+
+      <ng-container matColumnDef="inv_number_day">
+        <!--  -->
+        <th mat-header-cell *matHeaderCellDef> INV No.</th>
+        <td mat-cell *matCellDef="let element">{{ element.inv_number_day }}</td>
+      </ng-container>
+      <ng-container matColumnDef="inv_breakdown_minutes_day">
+        <!--  -->
+        <th mat-header-cell *matHeaderCellDef>INV- Breakdown Minutes</th>
+        <td mat-cell *matCellDef="let element">
+          {{ element.inv_breakdown_minutes_day }}
+        </td>
+      </ng-container>
+      <ng-container
+        matColumnDef="inv_breakdown_minutes_irradiation_greater_than_100_day"
+      >
+        <!--  -->
+        <th mat-header-cell *matHeaderCellDef>INV-Breakdown Minutes (Considering irradiation>100 W/m2)</th>
+        <td mat-cell *matCellDef="let element">
+          {{ element.inv_breakdown_minutes_irradiation_greater_than_100_day }}
+        </td>
+      </ng-container>
+
+
+
+      <!-- 	"
+"		-->
+      <ng-container matColumnDef="scb_breakdown_minutes_day">
+        <!--  -->
+        <th mat-header-cell *matHeaderCellDef>SCB-Breakdown Minutes</th>
+        <td mat-cell *matCellDef="let element">
+          {{ element.scb_breakdown_minutes_day }}
+        </td>
+      </ng-container>
+      <ng-container
+        matColumnDef="scb_breakdown_minutes_irradiation_greater_than_100_day"
+      >
+        <!--  -->
+        <th mat-header-cell *matHeaderCellDef>SCB- Breakdown Minutes (Considering irradiation>100 W/m2)</th>
+        <td mat-cell *matCellDef="let element">
+          {{ element.scb_breakdown_minutes_irradiation_greater_than_100_day }}
+        </td>
+      </ng-container>
+      <ng-container matColumnDef="scb_no_of_strings_day">
+        <!--  -->
+        <th mat-header-cell *matHeaderCellDef>SCB - No Of Strings</th>
+        <td mat-cell *matCellDef="let element">
+          {{ element.scb_no_of_strings_day }}
+        </td>
+      </ng-container>
+      <ng-container
+        matColumnDef="scb_duration_of_connected_to_faulty_inv_dt_rmu_day"
+      >
+        <!--  -->
+        <th mat-header-cell *matHeaderCellDef>SCB- Duration of Connected to Faulty INV/DT/RMU </th>
+        <td mat-cell *matCellDef="let element">
+          {{ element.scb_duration_of_connected_to_faulty_inv_dt_rmu_day }}
+        </td>
+      </ng-container>
+
+      <!-- 	""	 -->
+      <ng-container matColumnDef="switchgear_breakdown_minutes_day">
+        <!--  -->
+        <th mat-header-cell *matHeaderCellDef>SwitchGear - Breakdown Minutes</th>
+        <td mat-cell *matCellDef="let element">
+          {{ element.switchgear_breakdown_minutes_day }}
+        </td>
+      </ng-container>
+      <ng-container
+        matColumnDef="switchgear_breakdown_minutes_irradiation_greater_than_100_day"
+      >
+        <!--  -->
+        <th mat-header-cell *matHeaderCellDef>SwitchGear - Breakdown Minutes
+            (Considering irradiation>100 W/m2)</th>
+        <td mat-cell *matCellDef="let element">
+          {{
+            element.switchgear_breakdown_minutes_irradiation_greater_than_100_day
+          }}
+        </td>
+      </ng-container>
+      <ng-container matColumnDef="switchgear_no_of_ffected_inverter_day">
+        <!--  -->
+        <th mat-header-cell *matHeaderCellDef>SwitchGear - No Of  Effected Inverter</th>
+        <td mat-cell *matCellDef="let element">
+          {{ element.switchgear_no_of_ffected_inverter_day }}
+        </td>
+      </ng-container>
+
+      Switchyard		
+      ""	
+      
+      <ng-container matColumnDef="switchyard_breakdown_duration_minutes_day">
+        <!--  -->
+        <th mat-header-cell *matHeaderCellDef>Switchyard - 230 KV Bay-1
+            Breakdown duration 
+            Minutes</th>
+        <td mat-cell *matCellDef="let element">
+          {{ element.switchyard_breakdown_duration_minutes_day }}
+        </td>
+      </ng-container>
+      <ng-container
+        matColumnDef="switchyard_breakdown_minutes_irradiation_greater_than_100_day"
+      >
+        <!--  -->
+        <th mat-header-cell *matHeaderCellDef>Switchyard - "Breakdown Minutes
+            (Considering irradiation>100 W/m2)"</th>
+        <td mat-cell *matCellDef="let element">
+          {{
+            element.switchyard_breakdown_minutes_irradiation_greater_than_100_day
+          }}
+        </td>
+      </ng-container>
+      <ng-container matColumnDef="switchyard_no_of_ffected_inverter_day">
+        <!--  -->
+        <th mat-header-cell *matHeaderCellDef>Switchyard - No Of  Effected Inverter</th>
+        <td mat-cell *matCellDef="let element">
+          {{ element.switchyard_no_of_ffected_inverter_day }}
+        </td>
+      </ng-container>
+
+      <!-- 	Time	Set Point	Time	Set Point	Time -->
+
+      <ng-container matColumnDef="curtailment_slot_01_set_point_day">
+        <!--  -->
+        <th mat-header-cell *matHeaderCellDef>01 - Set Point</th>
+        <td mat-cell *matCellDef="let element">
+          {{ element.curtailment_slot_01_set_point_day }}
+        </td>
+      </ng-container>
+      <ng-container matColumnDef="curtailment_slot_01_time_day">
+        <!--  -->
+        <th mat-header-cell *matHeaderCellDef>01 - Time</th>
+        <td mat-cell *matCellDef="let element">
+          {{ element.curtailment_slot_01_time_day }}
+        </td>
+      </ng-container>
+      <ng-container matColumnDef="curtailment_slot_02_set_point_day">
+        <!--  -->
+        <th mat-header-cell *matHeaderCellDef>02 - Set Point</th>
+        <td mat-cell *matCellDef="let element">
+          {{ element.curtailment_slot_02_set_point_day }}
+        </td>
+      </ng-container>
+      <ng-container matColumnDef="curtailment_slot_02_time_day">
+        <!--  -->
+        <th mat-header-cell *matHeaderCellDef>02 - Time</th>
+        <td mat-cell *matCellDef="let element">
+          {{ element.curtailment_slot_02_time_day }}
+        </td>
+      </ng-container>
+      <ng-container matColumnDef="curtailment_slot_03_set_point_day">
+        <!--  -->
+        <th mat-header-cell *matHeaderCellDef>03 - Set Point</th>
+        <td mat-cell *matCellDef="let element">
+          {{ element.curtailment_slot_03_set_point_day }}
+        </td>
+      </ng-container>
+      <ng-container matColumnDef="curtailment_slot_03_time_day">
+        <!--  -->
+        <th mat-header-cell *matHeaderCellDef>03 - Time</th>
+        <td mat-cell *matCellDef="let element">
+          {{ element.curtailment_slot_03_time_day }}
+        </td>
+      </ng-container>
+
+      	
+      <ng-container matColumnDef="transmission_line_breakdown_minutes_day">
+        <!--  -->
+        <th mat-header-cell *matHeaderCellDef>Transmission line - Breakdown Minutes</th>
+        <td mat-cell *matCellDef="let element">
+          {{ element.transmission_line_breakdown_minutes_day }}
+        </td>
+      </ng-container>
+      <ng-container
+        matColumnDef="transmission_line_breakdown_minutes_irradiation_greater_than_100_day"
+      >
+        <!--  -->
+        <th mat-header-cell *matHeaderCellDef>Transmission line - Breakdown Minutes
+            (Considering irradiation>100 W/m2)</th>
+        <td mat-cell *matCellDef="let element">
+          {{
+            element.transmission_line_breakdown_minutes_irradiation_greater_t
+          }}
+        </td>
+      </ng-container>
+      <ng-container
+        matColumnDef="transmission_line_no_of_effected_inverter_day"
+      >
+        <!--  -->
+        <th mat-header-cell *matHeaderCellDef>Transmission line - No Of Effected Inverters</th>
+        <td mat-cell *matCellDef="let element">
+          {{ element.transmission_line_no_of_effected_inverter_day }}
+        </td>
+      </ng-container>
+      <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+      <tr mat-row *matRowDef="let row; columns: displayedColumns"></tr>
+    </table>
+    <mat-paginator
+      [pageSizeOptions]="[5, 10, 20]"
+      showFirstLastButtons
+       
+    >
+    </mat-paginator>
+  </div>
+</main>

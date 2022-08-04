@@ -1,0 +1,40 @@
+
+  <div class="dgr_buttons">
+  <button mat-raised-button (click)="addStudent()">Add Data</button>
+  <button mat-raised-button (click)=" goToCharts()">Display charts</button>
+</div>
+  <main>
+  <mat-form-field class="dgr_select" appearance="fill">
+    <mat-label>Choose A sheet to see it's data</mat-label>
+    <mat-select (selectionChange)="onChange($event)">
+      <mat-option value="site_input">
+      Site Input
+      </mat-option>
+      <mat-option value="availability">
+        Availability
+      </mat-option>
+      <mat-option value="grass_cutting_report">
+        Grass Cutting Report
+      </mat-option>
+      <mat-option value="block_wise_module_cleaning">
+        Block Wise Module Cleaning
+      </mat-option>
+      <mat-option value="break_down">
+        Break Down
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+  
+  <div>
+    <app-site-input-display *ngIf="si_flag"></app-site-input-display>
+    <app-availability-display *ngIf="av_flag"></app-availability-display>
+    <app-grass-cutting-display *ngIf="gcr_flag"></app-grass-cutting-display>
+    <app-block-wise-module-cleaning-display *ngIf="bwmc_flag"></app-block-wise-module-cleaning-display>
+    <app-break-down-display *ngIf="brd_flag"></app-break-down-display>
+  </div>
+</main>
+
+
+
+
+  

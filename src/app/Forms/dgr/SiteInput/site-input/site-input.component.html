@@ -1,0 +1,485 @@
+<mat-toolbar>
+    <span>Enter Below Fields to fill Excell for DGR Site Input JHANSI</span>
+  </mat-toolbar>
+  <br>
+<form [formGroup]="fg_siteInput" action="">
+    
+    <div class="container addDgrContainer">
+    <section>
+      <!-- Total Generation and Non Generation Hours (KWH)-->
+      
+      <p>
+        <mat-form-field appearance="fill" floatLabel="always">
+          <mat-label> Total Generation (Inverter Reading)</mat-label>
+          <input
+          formControlName="inverter_reading"
+            matInput
+            type="number"
+            
+            placeholder="0"
+          />
+          <span matSuffix>kWh &nbsp;</span>
+        </mat-form-field>
+      </p>
+      <p>
+          <mat-form-field appearance="fill" floatLabel="always">
+            <mat-label> Total Generation (Meter Reading)</mat-label>
+            <input
+            formControlName="meter_reading"
+              matInput
+              type="number"
+              
+              placeholder="0"
+            />
+            <span matSuffix>kWh &nbsp;</span>
+          </mat-form-field>
+        </p>
+        <p>
+          <mat-form-field appearance="fill" floatLabel="always">
+            <mat-label> Auxilary Consumptions (Non generation hours)</mat-label>
+            <input
+            formControlName="auxilary_consumptions"
+              matInput
+              type="number"
+              
+              placeholder="0"
+            />
+            <span matSuffix>kWh &nbsp;</span>
+          </mat-form-field>
+        </p>
+      
+      
+  
+      <!-- Reactive Power Import ,Peak Power Generated	,Irradiation  -->
+      
+        <p>
+          <mat-form-field appearance="fill" floatLabel="always">
+            <mat-label> Reactive Power Import</mat-label>
+            <input
+            formControlName="reactive_power_import"
+              matInput
+              type="number"
+              
+              placeholder="0"
+            />
+            <span matSuffix>kVARh &nbsp;</span>
+          </mat-form-field>
+        </p>
+        <!-- MW	kWh/m² -->
+        <p>
+          <mat-form-field appearance="fill" floatLabel="always">
+            <mat-label>Peak Power Generated</mat-label>
+            <input
+            formControlName="peak_power_generated"
+              matInput
+              type="number"
+              
+              placeholder="0"
+            />
+            <span matSuffix>MW &nbsp;</span>
+          </mat-form-field>
+        </p>
+        <p>
+          <mat-form-field appearance="fill" floatLabel="always">
+            <mat-label> Irradiation</mat-label>
+            <input
+            formControlName="irradiation"
+              matInput
+              type="number"
+              
+              placeholder="0"
+            />
+            <span matSuffix>kWh/m² &nbsp;</span>
+          </mat-form-field>
+        </p>
+      
+      <!-- Average Frequency Hz -->
+      
+        <p>
+          <mat-form-field appearance="fill" floatLabel="always">
+            <mat-label> Average Frequency</mat-label>
+            <input
+            formControlName="average_frequency"
+              matInput
+              type="number"
+              
+              placeholder="0"
+            />
+            <span matSuffix>Hz &nbsp;</span>
+          </mat-form-field>
+        </p>
+      
+        
+      <!-- No. of Inverters with SY < 10% of Average,	Average Inverter Efficiency,	No. of Time with Forecast deviation > 10%, Hours Spent on PM,	Hours spent on CM,	No. of CM Notifications created,	No. of CM Tickets closed -->
+      
+          <p>
+            <mat-form-field appearance="fill" floatLabel="always">
+              <mat-label> No. of Inverters with SY < 10% of Average</mat-label>
+              <input
+              formControlName="no_of_inverters_with_sy_10_of_average"
+                matInput
+                type="number"
+                
+                placeholder="0"
+              />
+              <span matSuffix>Nos. &nbsp;</span>
+            </mat-form-field>
+            </p>
+            <p>
+            <mat-form-field appearance="fill" floatLabel="always">
+              <mat-label> Average Inverter Efficiency</mat-label>
+              <input
+              formControlName="average_inverter_efficiency"
+                matInput
+                type="number"
+                
+                placeholder="0"
+              />
+              <span matSuffix>%&nbsp;</span>
+            </mat-form-field>
+          </p>
+          <p>
+            <mat-form-field appearance="fill" floatLabel="always">
+              <mat-label> No. of Time with Forecast deviation > 10%</mat-label>
+              <input
+              formControlName="no_of_time_with_forecast_deviation_10"
+                matInput
+                type="number"
+                
+                placeholder="0"
+              />
+              <span matSuffix>No.&nbsp;</span>
+            </mat-form-field>
+          </p>
+          <p>
+            <mat-form-field appearance="fill" floatLabel="always">
+              <mat-label>Hours Spent on PM</mat-label>
+              <input
+              formControlName="hours_spent_on_pm"
+                matInput
+                type="number"
+                
+                placeholder="0"
+              />
+              <span matSuffix>Man-Hours&nbsp;</span>
+            </mat-form-field>
+          </p>
+          <p>
+            <mat-form-field appearance="fill" floatLabel="always">
+              <mat-label>Hours Spent on CM</mat-label>
+              <input
+              formControlName="hours_spent_on_cm"
+                matInput
+                type="number"
+                
+                placeholder="0"
+              />
+              <span matSuffix>Man-Hours&nbsp;</span>
+            </mat-form-field>
+          </p>
+          <p>
+            <mat-form-field appearance="fill" floatLabel="always">
+              <mat-label>No. of CM Notifications created</mat-label>
+              <input
+              formControlName="no_of_cm_notifications_created"
+                matInput
+                type="number"
+                
+                placeholder="0"
+              />
+              <span matSuffix>No.&nbsp;</span>
+            </mat-form-field>
+          </p>
+          <p>
+            <mat-form-field appearance="fill" floatLabel="always">
+              <mat-label>No. of CM Tickets closed</mat-label>
+              <input
+              formControlName="no_of_cm_tickets_closed"
+                matInput
+                type="number"
+                
+                placeholder="0"
+              />
+              <span matSuffix>No.&nbsp;</span>
+            </mat-form-field>
+          </p>
+        
+  
+        <!-- No. of CM Tickets received from RONC -->
+        
+          <p>
+        <mat-form-field appearance="fill" floatLabel="always">
+          <mat-label>No. of CM Tickets received from RONC</mat-label>
+          <input
+          formControlName="no_of_cm_tickets_received_from_ronc"
+            matInput
+            type="number"
+            
+            placeholder="0"
+          />
+          <span matSuffix>Nos.&nbsp;</span>
+        </mat-form-field>
+      </p>
+    
+        
+    <!-- Soiling Loss	No. of Modules Cleaned	No. of Strings Monitored	Module Temp	Ambient Temp.	wind speed	No. of people entering plant premises	Irradiation (GHI)	Tankers entered in Plant	Capacity / Tanker	Available Water in Tanker (When Tanker exits from Plant) -->
+    
+      <p>
+    <mat-form-field appearance="fill" floatLabel="always">
+      <mat-label>Soiling Loss</mat-label>
+      <input
+      formControlName="soiling_loss"
+        matInput
+        type="number"
+        
+        placeholder="0"
+      />
+      <span matSuffix>%&nbsp;</span>
+    </mat-form-field>
+  </p>
+      <p>
+    <mat-form-field appearance="fill" floatLabel="always">
+      <mat-label>No. of Modules Cleaned</mat-label>
+      <input
+      formControlName="no_of_modules_cleaned"
+        matInput
+        type="number"
+        
+        placeholder="0"
+      />
+      <span matSuffix>Nos.&nbsp;</span>
+    </mat-form-field>
+  </p>
+      <p>
+    <mat-form-field appearance="fill" floatLabel="always">
+      <mat-label>No. of Strings Monitored</mat-label>
+      <input
+      formControlName="no_of_strings_monitored"
+        matInput
+        type="number"
+        
+        placeholder="0"
+      />
+      <span matSuffix>Nos.&nbsp;</span>
+    </mat-form-field>
+  </p>
+      <p>
+    <mat-form-field appearance="fill" floatLabel="always">
+      <mat-label>Module Temp</mat-label>
+      <input
+      formControlName="module_temp"
+        matInput
+        type="number"
+        
+        placeholder="0"
+      />
+      <span matSuffix>deg C&nbsp;</span>
+    </mat-form-field>
+  </p>
+      <p>
+    <mat-form-field appearance="fill" floatLabel="always">
+      <mat-label>Ambient Temp.</mat-label>
+      <input
+      formControlName="ambient_temp"
+        matInput
+        type="number"
+        
+        placeholder="0"
+      />
+      <span matSuffix>deg C&nbsp;</span>
+    </mat-form-field>
+  </p>
+      <p>
+    <mat-form-field appearance="fill" floatLabel="always">
+      <mat-label>Wind Speed</mat-label>
+      <input
+      formControlName="wind_speed"
+        matInput
+        type="number"
+        
+        placeholder="0"
+      />
+      <span matSuffix>m/s&nbsp;</span>
+    </mat-form-field>
+  </p>
+      <p>
+    <mat-form-field appearance="fill" floatLabel="always">
+      <mat-label>No. of people entering plant premises</mat-label>
+      <input
+      formControlName="no_of_people_entering_plant_premises"
+        matInput
+        type="number"
+        
+        placeholder="0"
+      />
+      <span matSuffix>Nos.&nbsp;</span>
+    </mat-form-field>
+  </p>
+      <p>
+    <mat-form-field appearance="fill" floatLabel="always">
+      <mat-label>Irradiation (GHI)</mat-label>
+      <input
+      formControlName="irradiation_ghi"
+        matInput
+        type="number"
+        
+        placeholder="0"
+      />
+      <span matSuffix>kWh/m²&nbsp;</span>
+    </mat-form-field>
+  </p>
+      <p>
+    <mat-form-field appearance="fill" floatLabel="always">
+      <mat-label>Tankers entered in Plant</mat-label>
+      <input
+      formControlName="tankers_entered_in_plant"
+        matInput
+        type="number"
+        
+        placeholder="0"
+      />
+      <span matSuffix>Nos.&nbsp;</span>
+    </mat-form-field>
+  </p>
+      <p>
+    <mat-form-field appearance="fill" floatLabel="always">
+      <mat-label>Capacity / Tanker</mat-label>
+      <input
+      formControlName="capacity_tanker"
+        matInput
+        type="number"
+        
+        placeholder="0"
+      />
+      <span matSuffix>Litres&nbsp;</span>
+    </mat-form-field>
+  </p>
+      <p>
+    <mat-form-field appearance="fill" floatLabel="always">
+      <mat-label>Available Water in Tanker (When Tanker exits from Plant)</mat-label>
+      <input
+      formControlName="available_water_in_tanker_exits"
+        matInput
+        type="number"
+        
+        placeholder="0"
+      />
+      <span matSuffix>Litres&nbsp;</span>
+    </mat-form-field>
+  </p>
+  
+  
+  
+      <p>
+    <mat-form-field appearance="fill" floatLabel="always">
+      <mat-label>GII WMS-01</mat-label>
+      <input
+      formControlName="gii_wms_01"
+        matInput
+        type="number"
+        
+        placeholder="0"
+      />
+      <span matSuffix>kWh/m²&nbsp;</span>
+    </mat-form-field>
+  </p>
+      <p>
+    <mat-form-field appearance="fill" floatLabel="always">
+      <mat-label>GII WMS-02</mat-label>
+      <input
+      formControlName="gii_wms_02"
+        matInput
+        type="number"
+        
+        placeholder="0"
+      />
+      <span matSuffix>kWh/m²&nbsp;</span>
+    </mat-form-field>
+  </p>
+      <p>
+    <mat-form-field appearance="fill" floatLabel="always">
+      <mat-label>GII WMS-03</mat-label>
+      <input
+      formControlName="gii_wms_03"
+        matInput
+        type="number"
+        placeholder="0"
+      />
+      <span matSuffix>kWh/m²&nbsp;</span>
+    </mat-form-field>
+  </p>
+      <p>
+    <mat-form-field appearance="fill" floatLabel="always">
+      <mat-label>Sunrise(When IRR is > 100 w/m2)</mat-label>
+      <input
+      formControlName="sunrise"
+        matInput
+        type="time"
+        step="1"
+        
+        placeholder="0"
+      />
+      <!-- <span matSuffix>&nbsp;</span> -->
+    </mat-form-field>
+  </p>
+      <p>
+    <mat-form-field appearance="fill" floatLabel="always">
+      <mat-label>SunSet (When IRR is < 100 w/m2)</mat-label>
+      <input
+      formControlName="sunset"
+        matInput
+        type="time"
+        step="1"
+        
+        placeholder="0"
+      />
+      <!-- <span matSuffix>When IRR is < 100 w/m2 &nbsp;</span> -->
+    </mat-form-field>
+  </p>
+      <p>
+    <mat-form-field appearance="fill" floatLabel="always">
+      <mat-label>TDS</mat-label>
+      <input
+      formControlName="tds"
+        matInput
+        type="number"
+        
+        placeholder="0"
+      />
+      <span matSuffix>ppm&nbsp;</span>
+    </mat-form-field>
+  </p>
+      <p>
+    <mat-form-field appearance="fill" floatLabel="always">
+      <mat-label>Rain</mat-label>
+      <input
+      formControlName="rain"
+        matInput
+        type="number"
+        
+        placeholder="0"
+      />
+      <span matSuffix>mm&nbsp;</span>
+    </mat-form-field>
+  </p>
+      <p>
+    <mat-form-field appearance="fill" floatLabel="always">
+      <mat-label>Installed DC</mat-label>
+      <input
+      formControlName="installed_dc"
+        matInput
+        type="number"
+        
+        placeholder="0"
+      />
+      
+    </mat-form-field>
+  </p>
+</section>
+  
+  
+  
+</div>
+<button (click)="submitDgrData()" [disabled]="fg_siteInput.invalid"  mat-stroked-button color="primary">Submit</button>
+  </form>
+  

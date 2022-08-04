@@ -1,0 +1,195 @@
+<main> 
+    <div class="mat-elevation-z8">
+      <table mat-table [dataSource]="dataSource">
+        <!--  -->
+        <ng-container matColumnDef="date">
+              <th mat-header-cell *matHeaderCellDef>Date</th>
+              <td mat-cell *matCellDef="let element">
+                {{ element.date }}
+              </td>
+        </ng-container>
+
+        <ng-container matColumnDef="category_of_breakdown_state">
+            <!--  -->
+            
+              <!--  -->
+              <th mat-header-cell *matHeaderCellDef>CATEGORY OF BREAKDOWN STATE</th>
+              <td mat-cell *matCellDef="let element">
+                {{ element.category_of_breakdown_state }}
+              </td>
+            </ng-container>
+        <ng-container matColumnDef="category_of_breakdown_component">
+            <!--  -->
+            
+              <!--  -->
+              <th mat-header-cell *matHeaderCellDef>CATEGORY OF BREAKDOWN COMPONENT</th>
+              <td mat-cell *matCellDef="let element">
+                {{ element.category_of_breakdown_component }}
+              </td>
+            </ng-container>
+        <ng-container matColumnDef="category_sub_component">
+            <!--  -->
+            
+              <!--  -->
+              <th mat-header-cell *matHeaderCellDef>CATEGORY SUB COMPONENT </th>
+              <td mat-cell *matCellDef="let element">
+                {{ element.category_sub_component }}
+              </td>
+            </ng-container>
+       
+        <ng-container matColumnDef="block">
+            <!--  -->
+            
+              <!--  -->
+              <th mat-header-cell *matHeaderCellDef>BLOCK</th>
+              <td mat-cell *matCellDef="let element">
+                {{ element.block }}
+              </td>
+            </ng-container>
+        <ng-container matColumnDef="asb">
+            <!--  -->
+            
+              <!--  -->
+              <th mat-header-cell *matHeaderCellDef>ASB</th>
+              <td mat-cell *matCellDef="let element">
+                {{ element.asb }}
+              </td>
+            </ng-container>
+        <ng-container matColumnDef="inverter">
+            <!--  -->
+            
+              <!--  -->
+              <th mat-header-cell *matHeaderCellDef>INVERTER</th>
+              <td mat-cell *matCellDef="let element">
+                {{ element.inverter }}
+              </td>
+            </ng-container>
+        <ng-container matColumnDef="bd_type">
+            <!--  -->
+            
+              <!--  -->
+              <th mat-header-cell *matHeaderCellDef>BD TYPE</th>
+              <td mat-cell *matCellDef="let element">
+                {{ element.bd_type }}
+              </td>
+            </ng-container>
+        <ng-container matColumnDef="dc_capacity_down_kw">
+            <!--  -->
+            
+              <!--  -->
+              <th mat-header-cell *matHeaderCellDef>DC CAPACITY DOWN(KW)</th>
+              <td mat-cell *matCellDef="let element">
+                {{ element.dc_capacity_down_kw }}
+              </td>
+            </ng-container>
+        <ng-container matColumnDef="downtime">
+            <!--  -->
+            
+              <!--  -->
+              <th mat-header-cell *matHeaderCellDef>DOWNTIME</th>
+              <td mat-cell *matCellDef="let element">
+                {{ element.downtime }}
+              </td>
+            </ng-container>
+        <ng-container matColumnDef="uptime">
+            <!--  -->
+            
+              <!--  -->
+              <th mat-header-cell *matHeaderCellDef>UPTIME</th>
+              <td mat-cell *matCellDef="let element">
+                {{ element.uptime }}
+              </td>
+            </ng-container>
+        <ng-container matColumnDef="totaltime_hrs">
+            <!--  -->
+            
+              <!--  -->
+              <th mat-header-cell *matHeaderCellDef>TOTALTIME(Hrs)</th>
+              <td mat-cell *matCellDef="let element">
+                {{ element.totaltime_hrs }}
+              </td>
+            </ng-container>
+        <ng-container matColumnDef="error_code">
+            <!--  -->
+            
+              <!--  -->
+              <th mat-header-cell *matHeaderCellDef>Error code</th>
+              <td mat-cell *matCellDef="let element">
+                {{ element.error_code }}
+              </td>
+            </ng-container>
+        <ng-container matColumnDef="sap_breakdown_or_corrective_maintenance_order_no_pw0_11_digit_number">
+            <!--  -->
+            
+              <!--  -->
+              <th mat-header-cell *matHeaderCellDef>SAP Breakdown/Corrective Maintenance Order No-PW01 (11 Digit Number)</th>
+              <td mat-cell *matCellDef="let element">
+                {{ element.sap_breakdown_or_corrective_maintenance_order_no_pw0_11_digit_number }}
+              </td>
+            </ng-container>
+        <ng-container matColumnDef="fault_description">
+            <!--  -->
+            
+              <!--  -->
+              <th mat-header-cell *matHeaderCellDef>FaultDescription</th>
+              <td mat-cell *matCellDef="let element">
+                {{ element.fault_description }}
+              </td>
+            </ng-container>
+        <ng-container matColumnDef="actiontaken">
+            <!--  -->
+            
+              <!--  -->
+              <th mat-header-cell *matHeaderCellDef>Actiontaken</th>
+              <td mat-cell *matCellDef="let element">
+                {{ element.actiontaken }}
+              </td>
+            </ng-container>
+        <ng-container matColumnDef="other_remarks_if_any">
+            <!--  -->
+            
+              <!--  -->
+              <th mat-header-cell *matHeaderCellDef>Other Remarks (if any)</th>
+              <td mat-cell *matCellDef="let element">
+                {{ element.other_remarks_if_any }}
+              </td>
+            </ng-container>
+        <ng-container matColumnDef="acc_gii_kwh_or_m2_when_stop">
+            <!--  -->
+            
+              <!--  -->
+              <th mat-header-cell *matHeaderCellDef>ACC GII(KWh/M2) when Stop</th>
+              <td mat-cell *matCellDef="let element">
+                {{ element.acc_gii_kwh_or_m2_when_stop }}
+              </td>
+            </ng-container>
+        <ng-container matColumnDef="acc_gii_kwh_or_m2_when_start">
+            <!--  -->
+            
+              <!--  -->
+              <th mat-header-cell *matHeaderCellDef>ACC GII(KWh/M2) when Start</th>
+              <td mat-cell *matCellDef="let element">
+                {{ element.acc_gii_kwh_or_m2_when_start }}
+              </td>
+            </ng-container>
+        <ng-container matColumnDef="bd_loss_kwh">
+            <!--  -->
+            
+              <!--  -->
+              <th mat-header-cell *matHeaderCellDef>BD Loss KWH</th>
+              <td mat-cell *matCellDef="let element">
+                {{ element.bd_loss_kwh }}
+              </td>
+            </ng-container>
+        
+        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+        <tr mat-row *matRowDef="let row; columns: displayedColumns"></tr>
+      </table>
+      <mat-paginator
+        [pageSizeOptions]="[5, 10, 20]"
+        showFirstLastButtons
+      >
+      </mat-paginator>
+    </div>
+  </main>
+  

@@ -1,0 +1,19 @@
+mat-form-field{
+    width:auto;
+    margin: 1rem;
+}
+section{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    background-color: rgb(245, 243, 243);
+    
+    text-align: center;
+    padding: 2rem;
+    
+}
+form{
+    text-align: center;
+}
