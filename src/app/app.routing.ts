@@ -7,6 +7,7 @@ import { PiechartComponent } from "./charts/piechart/piechart.component";
 import { AddDgrComponent } from "./Forms/dgr/add-dgr/add-dgr.component";
 import { DgrComponent } from "./Forms/dgr/dgr.component";
 import { PagenotfoundComponent } from "./Pages/dashboard/pagenotfound/pagenotfound.component";
+import { CustomInputComponent } from "./Shared/Elements/custom-input/custom-input.component";
 import { AddComponent } from "./Student/add/add.component";
 import { DisplayComponent } from "./Student/display/display.component";
 import { EditComponent } from "./Student/edit/edit.component";
@@ -14,6 +15,7 @@ import { EditComponent } from "./Student/edit/edit.component";
 const routes: Routes = [
   { path: '', component: DgrComponent },
   { path: 'adddgr', component:AddDgrComponent },
+  { path: 'custom', component:CustomInputComponent },
     
 
     { path: 'display', component: DisplayComponent },

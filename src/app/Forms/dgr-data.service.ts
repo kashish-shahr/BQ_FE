@@ -39,6 +39,11 @@ export class DgrDataService {
     this.siteInputData=body;
     return this._http.post("http://localhost:3000/breakdown_1",body,{headers:this.x});
   }
+  addAllCurtailmentLossesData(body:Data){
+    console.log("service",body);
+    this.siteInputData=body;
+    return this._http.post("http://localhost:3000/curtailment_losses",body,{headers:this.x});
+  }
   getAllDgrGrassCuttingReportData(){
     return this._http.get("http://localhost:3000/grass_cutting");;
   }
@@ -54,5 +59,8 @@ export class DgrDataService {
   }
   getAllDgrBreakDownData(){
     return this._http.get("http://localhost:3000/breakdown_1");;
+  }
+  getAllCurtailmentLossesData(){
+    return this._http.get("http://localhost:3000/curtailment_losses");;
   }
 }

@@ -37,6 +37,7 @@ export class BreakDownAddComponent implements OnInit {
     bd_loss_kwh: new FormControl(null,  ),
     })
   }
+  
   submitDgrData() {
     let body: any = this.fg_break_down.value;
     this._siteGrassCuttingService.addAllDgrBreakDownData(body);

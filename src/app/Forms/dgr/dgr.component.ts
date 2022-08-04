@@ -31,6 +31,7 @@ export class DgrComponent implements OnInit {
   gcr_flag:boolean=false;
   bwmc_flag:boolean=false;
   brd_flag:boolean=false;
+  cl_flag:boolean=false;
   onChange(E) {
     let formName=E.value;
     if(formName==="site_input"){
@@ -39,6 +40,7 @@ export class DgrComponent implements OnInit {
       this.gcr_flag=false;
       this.bwmc_flag=false;
       this.brd_flag=false;
+      this.cl_flag=false;
     }
     else if(formName==="availability")
     {
@@ -47,6 +49,7 @@ export class DgrComponent implements OnInit {
       this.gcr_flag=false;
       this.bwmc_flag=false;
       this.brd_flag=false;
+      this.cl_flag=false;
     }
     else if(formName==="grass_cutting_report")
     {
@@ -55,6 +58,7 @@ export class DgrComponent implements OnInit {
       this.gcr_flag=true;
       this.bwmc_flag=false;
       this.brd_flag=false;
+      this.cl_flag=false;
     }
     else if(formName==="block_wise_module_cleaning")
     {
@@ -63,13 +67,23 @@ export class DgrComponent implements OnInit {
       this.gcr_flag=false;
       this.bwmc_flag=true;
       this.brd_flag=false;
+      this.cl_flag=false;
     }
     else if(formName==="break_down")
     {
       this.si_flag=false;
       this.av_flag=false;
       this.gcr_flag=false;
+      this.cl_flag=false;
       this.brd_flag=true;
+    }
+    else if(formName==="curtailment_losses")
+    {
+      this.si_flag=false;
+      this.av_flag=false;
+      this.gcr_flag=false;
+      this.cl_flag=true;
+      this.brd_flag=false;
     }
     else{
       console.warn("error in Select")

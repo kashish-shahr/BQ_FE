@@ -14,7 +14,7 @@ export class BreakDownDisplayComponent implements OnInit {
     "category_of_breakdown_state",
     "category_of_breakdown_component",
     "category_sub_component",
-    "block",
+    "block", 
     "inverter",
     "bd_type",
     "dc_capacity_down_kw",
