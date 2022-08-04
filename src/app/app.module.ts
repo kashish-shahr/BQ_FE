@@ -45,6 +45,8 @@ import { GrassCuttingAddComponent } from './Forms/dgr/GrassCutting/grass-cutting
 
 import { BlockWiseModuleCleaningDisplayComponent } from './Forms/dgr/BlockWiseModuleCleaning/block-wise-module-cleaning-display/block-wise-module-cleaning-display.component';
 import { BlockWiseModuleCleaningAddComponent } from './Forms/dgr/BlockWiseModuleCleaning/block-wise-module-cleaning-add/block-wise-module-cleaning-add.component';
+import { BreakDownDisplayComponent } from './Forms/dgr/Breakdown_1/break-down-display/break-down-display.component';
+import { BreakDownAddComponent } from './Forms/dgr/Breakdown_1/break-down-add/break-down-add.component';
 
 
 
@@ -76,6 +78,8 @@ import { BlockWiseModuleCleaningAddComponent } from './Forms/dgr/BlockWiseModule
     
     BlockWiseModuleCleaningDisplayComponent,
     BlockWiseModuleCleaningAddComponent,
+    BreakDownDisplayComponent,
+    BreakDownAddComponent,
     
   ],
   imports: [

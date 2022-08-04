@@ -5,9 +5,9 @@
 <form [formGroup]="fg_siteInput" action="">
     
     <div class="container addDgrContainer">
-  
+    <section>
       <!-- Total Generation and Non Generation Hours (KWH)-->
-      <section>
+      
       <p>
         <mat-form-field appearance="fill" floatLabel="always">
           <mat-label> Total Generation (Inverter Reading)</mat-label>
@@ -47,11 +47,11 @@
             <span matSuffix>kWh &nbsp;</span>
           </mat-form-field>
         </p>
-      </section>
+      
       
   
       <!-- Reactive Power Import ,Peak Power Generated	,Irradiation  -->
-      <section>
+      
         <p>
           <mat-form-field appearance="fill" floatLabel="always">
             <mat-label> Reactive Power Import</mat-label>
@@ -92,9 +92,9 @@
             <span matSuffix>kWh/m² &nbsp;</span>
           </mat-form-field>
         </p>
-      </section>
+      
       <!-- Average Frequency Hz -->
-      <section>
+      
         <p>
           <mat-form-field appearance="fill" floatLabel="always">
             <mat-label> Average Frequency</mat-label>
@@ -108,10 +108,10 @@
             <span matSuffix>Hz &nbsp;</span>
           </mat-form-field>
         </p>
-      </section>
+      
         
       <!-- No. of Inverters with SY < 10% of Average,	Average Inverter Efficiency,	No. of Time with Forecast deviation > 10%, Hours Spent on PM,	Hours spent on CM,	No. of CM Notifications created,	No. of CM Tickets closed -->
-      <section>
+      
           <p>
             <mat-form-field appearance="fill" floatLabel="always">
               <mat-label> No. of Inverters with SY < 10% of Average</mat-label>
@@ -203,10 +203,10 @@
               <span matSuffix>No.&nbsp;</span>
             </mat-form-field>
           </p>
-        </section>
+        
   
         <!-- No. of CM Tickets received from RONC -->
-        <section>
+        
           <p>
         <mat-form-field appearance="fill" floatLabel="always">
           <mat-label>No. of CM Tickets received from RONC</mat-label>
@@ -220,10 +220,10 @@
           <span matSuffix>Nos.&nbsp;</span>
         </mat-form-field>
       </p>
-    </section>
+    
         
     <!-- Soiling Loss	No. of Modules Cleaned	No. of Strings Monitored	Module Temp	Ambient Temp.	wind speed	No. of people entering plant premises	Irradiation (GHI)	Tankers entered in Plant	Capacity / Tanker	Available Water in Tanker (When Tanker exits from Plant) -->
-    <section>
+    
       <p>
     <mat-form-field appearance="fill" floatLabel="always">
       <mat-label>Soiling Loss</mat-label>
@@ -368,8 +368,8 @@
     </mat-form-field>
   </p>
   
-  </section>
-  <section>
+  
+  
       <p>
     <mat-form-field appearance="fill" floatLabel="always">
       <mat-label>GII WMS-01</mat-label>
@@ -475,11 +475,11 @@
       
     </mat-form-field>
   </p>
-  </section>
+</section>
   
   
-      <button (click)="submitDgrData()" [disabled]="fg_siteInput.invalid"  mat-stroked-button color="primary">Submit</button>
-      
-    </div>
+  
+</div>
+<button (click)="submitDgrData()" [disabled]="fg_siteInput.invalid"  mat-stroked-button color="primary">Submit</button>
   </form>
   

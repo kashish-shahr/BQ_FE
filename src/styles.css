@@ -13,5 +13,7 @@ table {
   td{
     width: 3rem;
   }
- 
- 
+  mat-form-field{
+    width: 25rem;
+}
+  
