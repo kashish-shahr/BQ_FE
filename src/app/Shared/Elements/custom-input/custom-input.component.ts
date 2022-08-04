@@ -8,8 +8,11 @@ import { Component, OnInit } from '@angular/core';
 export class CustomInputComponent implements OnInit {
 
   constructor() { }
-
+  formControlNames=[
+    {name:"inverter_reading",type:"number",placeholder:"0"}
+  ]
   ngOnInit(): void {
+    console.log(this.formControlNames)
   }
 
 }

@@ -47,6 +47,8 @@ import { BlockWiseModuleCleaningDisplayComponent } from './Forms/dgr/BlockWiseMo
 import { BlockWiseModuleCleaningAddComponent } from './Forms/dgr/BlockWiseModuleCleaning/block-wise-module-cleaning-add/block-wise-module-cleaning-add.component';
 import { BreakDownDisplayComponent } from './Forms/dgr/Breakdown_1/break-down-display/break-down-display.component';
 import { BreakDownAddComponent } from './Forms/dgr/Breakdown_1/break-down-add/break-down-add.component';
+import { CurtailmentLossAddComponent } from './Forms/dgr/CuratailmentLoss/curtailment-loss-add/curtailment-loss-add.component';
+import { CurtailmentLossDisplayComponent } from './Forms/dgr/CuratailmentLoss/curtailment-loss-display/curtailment-loss-display.component';
 
 
 
@@ -80,6 +82,8 @@ import { BreakDownAddComponent } from './Forms/dgr/Breakdown_1/break-down-add/br
     BlockWiseModuleCleaningAddComponent,
     BreakDownDisplayComponent,
     BreakDownAddComponent,
+    CurtailmentLossAddComponent,
+    CurtailmentLossDisplayComponent,
     
   ],
   imports: [

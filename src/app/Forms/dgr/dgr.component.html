@@ -19,9 +19,13 @@
       <mat-option value="block_wise_module_cleaning">
         Block Wise Module Cleaning
       </mat-option>
+      <mat-option value="curtailment_losses">
+        Curtailment Losses
+      </mat-option>
       <mat-option value="break_down">
         Break Down
       </mat-option>
+      
     </mat-select>
   </mat-form-field>
   
@@ -31,6 +35,7 @@
     <app-grass-cutting-display *ngIf="gcr_flag"></app-grass-cutting-display>
     <app-block-wise-module-cleaning-display *ngIf="bwmc_flag"></app-block-wise-module-cleaning-display>
     <app-break-down-display *ngIf="brd_flag"></app-break-down-display>
+    <app-curtailment-loss-display *ngIf="cl_flag"></app-curtailment-loss-display>
   </div>
 </main>
 

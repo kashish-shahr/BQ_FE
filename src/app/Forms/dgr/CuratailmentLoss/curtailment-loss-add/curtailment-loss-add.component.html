@@ -1,0 +1,98 @@
+<!-- SAM 	Daily (In Acres)	MTD ( In Acres) -->
+
+<mat-toolbar>
+    <span>Enter Below Fields to fill Excell for DGR Curtailment Losses</span>
+  </mat-toolbar>
+  <br /> 
+  
+  <main >
+    <form   class="active" [formGroup]="fg_curtailment_losses" action="">
+      <div class="container addDgrContainer">
+        
+        <section>
+            <p> 
+                <mat-form-field appearance="fill" floatLabel="always">
+                  <mat-label> Plant</mat-label>
+                  <input
+                    formControlName="plant"
+                    matInput
+                    type="text"
+                  />
+                </mat-form-field>
+              </p>
+            <p> 
+                <mat-form-field appearance="fill" floatLabel="always">
+                  <mat-label> Date</mat-label>
+                  <input
+                    formControlName="date"
+                    matInput
+                    type="date"
+                  />
+                </mat-form-field>
+              </p>
+            <p> 
+                <mat-form-field appearance="fill" floatLabel="always">
+                  <mat-label>Time </mat-label>
+                  <input
+                    formControlName="time"
+                    matInput
+                    type="time"
+                    step="1"
+                  />
+                </mat-form-field>
+              </p>
+            <p> 
+                <mat-form-field appearance="fill" floatLabel="always">
+                  <mat-label>Total AC Power (Meter reading) (W)</mat-label>
+                  <input
+                    formControlName="total_ac_power_meter_reading"
+                    matInput
+                    type=""
+                  />
+                  <span matSuffix>W &nbsp;</span>
+                </mat-form-field>
+              </p>
+            <p> 
+                <mat-form-field appearance="fill" floatLabel="always">
+                  <mat-label> Irradiation</mat-label>
+                  <input
+                    formControlName="irradiation"
+                    matInput
+                    type="number"
+                  />
+                  <span matSuffix>W/m<sup>2</sup> &nbsp;</span>
+                </mat-form-field>
+              </p>
+            <p> 
+                <mat-form-field appearance="fill" floatLabel="always">
+                  <mat-label> DC</mat-label>
+                  <input
+                    formControlName="dc"
+                    matInput
+                    type="number"
+                  />
+                  <span matSuffix>KW &nbsp;</span>
+                </mat-form-field>
+              </p>
+            <p> 
+                <mat-form-field appearance="fill" floatLabel="always">
+                  <mat-label> PR</mat-label>
+                  <input
+                    formControlName="pr"
+                    matInput
+                    type="number"
+                    placeholder="0.0"
+                    
+                  />
+                  <span matSuffix>% &nbsp;</span>
+                </mat-form-field>
+              </p>
+      
+        </section>
+  
+        <button (click)="submitDgrData()" [disabled]="fg_curtailment_losses.invalid" mat-stroked-button color="primary">Submit</button>
+    </div>
+
+    </form>
+
+  </main>

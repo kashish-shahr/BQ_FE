@@ -3108,6 +3108,1053 @@
         "acc_gii_kwh_or_m2_when_start": 2.63,
         "bd_loss_kwh": ""
       }
-    ]
+    ],
+
+  "curtailment_losses":[
+    {
+     "plant": "RJ-100",
+     "date": "06\/10\/2022",
+     "time": "11:35:00",
+     "total_ac_power_meter_reading": 94141300,
+     "irradiation": 906.0013,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "11:36:00",
+     "total_ac_power_meter_reading": 94268299.99999999,
+     "irradiation": 903.5711,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "11:37:00",
+     "total_ac_power_meter_reading": 94586300,
+     "irradiation": 907.6523,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "11:38:00",
+     "total_ac_power_meter_reading": 94713700,
+     "irradiation": 914.9109,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "11:39:00",
+     "total_ac_power_meter_reading": 94695800,
+     "irradiation": 915.2831,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "11:40:00",
+     "total_ac_power_meter_reading": 94650600,
+     "irradiation": 914.4317,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "11:41:00",
+     "total_ac_power_meter_reading": 94487000,
+     "irradiation": 913.0178,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "11:42:00",
+     "total_ac_power_meter_reading": 94535800,
+     "irradiation": 915.8306,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "11:43:00",
+     "total_ac_power_meter_reading": 94253800,
+     "irradiation": 919.438,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "11:44:00",
+     "total_ac_power_meter_reading": 94177700.00000001,
+     "irradiation": 924.7341,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "11:45:00",
+     "total_ac_power_meter_reading": 94031200,
+     "irradiation": 916.104,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "11:46:00",
+     "total_ac_power_meter_reading": 94150200,
+     "irradiation": 925.7478,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "11:47:00",
+     "total_ac_power_meter_reading": 94024600,
+     "irradiation": 927.8027,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "11:48:00",
+     "total_ac_power_meter_reading": 94296400,
+     "irradiation": 921.1487,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "11:49:00",
+     "total_ac_power_meter_reading": 94131599.99999999,
+     "irradiation": 922.2474,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "11:50:00",
+     "total_ac_power_meter_reading": 94267099.99999999,
+     "irradiation": 932.1155,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "11:51:00",
+     "total_ac_power_meter_reading": 94323400,
+     "irradiation": 931.9908,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "11:52:00",
+     "total_ac_power_meter_reading": 94381600,
+     "irradiation": 924.5367,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "11:53:00",
+     "total_ac_power_meter_reading": 94524300,
+     "irradiation": 920.7315,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "11:54:00",
+     "total_ac_power_meter_reading": 94479100,
+     "irradiation": 918.4338,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "11:55:00",
+     "total_ac_power_meter_reading": 94430500,
+     "irradiation": 931.8535,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "11:56:00",
+     "total_ac_power_meter_reading": 94282300.00000001,
+     "irradiation": 928.7537,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "11:57:00",
+     "total_ac_power_meter_reading": 94038900,
+     "irradiation": 928.5254,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "11:58:00",
+     "total_ac_power_meter_reading": 93972600,
+     "irradiation": 923.9409,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "11:59:00",
+     "total_ac_power_meter_reading": 93901300,
+     "irradiation": 927.4204,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "12:00:00",
+     "total_ac_power_meter_reading": 93961700.00000001,
+     "irradiation": 932.8318,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "12:01:00",
+     "total_ac_power_meter_reading": 93942200,
+     "irradiation": 931.3952,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "12:02:00",
+     "total_ac_power_meter_reading": 94030600,
+     "irradiation": 927.8587,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "12:03:00",
+     "total_ac_power_meter_reading": 93997600,
+     "irradiation": 931.7614,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "12:04:00",
+     "total_ac_power_meter_reading": 94319200,
+     "irradiation": 934.062,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "12:05:00",
+     "total_ac_power_meter_reading": 94286700.00000001,
+     "irradiation": 924.6221,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "12:06:00",
+     "total_ac_power_meter_reading": 94647000.00000001,
+     "irradiation": 931.0607,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "12:07:00",
+     "total_ac_power_meter_reading": 94561300,
+     "irradiation": 941.6786,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "12:08:00",
+     "total_ac_power_meter_reading": 94720600,
+     "irradiation": 941.7216,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "12:09:00",
+     "total_ac_power_meter_reading": 94714700,
+     "irradiation": 937.3775,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "12:10:00",
+     "total_ac_power_meter_reading": 94664300,
+     "irradiation": 932.5547,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "12:11:00",
+     "total_ac_power_meter_reading": 94666300,
+     "irradiation": 932.1187,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "12:12:00",
+     "total_ac_power_meter_reading": 94677100,
+     "irradiation": 934.2296,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "12:13:00",
+     "total_ac_power_meter_reading": 94678100,
+     "irradiation": 937.024,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "12:14:00",
+     "total_ac_power_meter_reading": 94596600,
+     "irradiation": 929.7559,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "12:15:00",
+     "total_ac_power_meter_reading": 94246700,
+     "irradiation": 937.1567,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "12:16:00",
+     "total_ac_power_meter_reading": 94334100,
+     "irradiation": 937.2261,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "12:17:00",
+     "total_ac_power_meter_reading": 94155799.99999999,
+     "irradiation": 931.6807,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "12:18:00",
+     "total_ac_power_meter_reading": 93859500,
+     "irradiation": 927.2637,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "12:19:00",
+     "total_ac_power_meter_reading": 93906500,
+     "irradiation": 931.7243,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "12:20:00",
+     "total_ac_power_meter_reading": 94115300,
+     "irradiation": 934.968,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "12:21:00",
+     "total_ac_power_meter_reading": 94238700,
+     "irradiation": 932.9841,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "12:22:00",
+     "total_ac_power_meter_reading": 94348800,
+     "irradiation": 927.7663,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "12:23:00",
+     "total_ac_power_meter_reading": 94524700.00000001,
+     "irradiation": 923.977,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "12:24:00",
+     "total_ac_power_meter_reading": 94569900,
+     "irradiation": 934.2137,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "12:25:00",
+     "total_ac_power_meter_reading": 94442700,
+     "irradiation": 938.0405,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "12:26:00",
+     "total_ac_power_meter_reading": 94549200.00000001,
+     "irradiation": 939.7895,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "12:27:00",
+     "total_ac_power_meter_reading": 94594300.00000001,
+     "irradiation": 933.2043,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "12:28:00",
+     "total_ac_power_meter_reading": 94586400.00000001,
+     "irradiation": 935.5085,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "12:29:00",
+     "total_ac_power_meter_reading": 94675200.00000001,
+     "irradiation": 940.5307,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "12:30:00",
+     "total_ac_power_meter_reading": 94463700.00000001,
+     "irradiation": 943.1236,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "12:31:00",
+     "total_ac_power_meter_reading": 94467600,
+     "irradiation": 940.0051,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "12:32:00",
+     "total_ac_power_meter_reading": 94319599.99999999,
+     "irradiation": 932.8613,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "12:33:00",
+     "total_ac_power_meter_reading": 94302200,
+     "irradiation": 935.5317,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "12:34:00",
+     "total_ac_power_meter_reading": 94456500,
+     "irradiation": 936.5872,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "12:35:00",
+     "total_ac_power_meter_reading": 94324000,
+     "irradiation": 918.3873,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "12:36:00",
+     "total_ac_power_meter_reading": 94547500,
+     "irradiation": 919.1755,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "12:37:00",
+     "total_ac_power_meter_reading": 94416099.99999999,
+     "irradiation": 918.4338,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "12:38:00",
+     "total_ac_power_meter_reading": 94579100,
+     "irradiation": 909.8439,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "12:39:00",
+     "total_ac_power_meter_reading": 94560600,
+     "irradiation": 922.5059,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "12:40:00",
+     "total_ac_power_meter_reading": 94645000,
+     "irradiation": 937.0437,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "12:41:00",
+     "total_ac_power_meter_reading": 94814900,
+     "irradiation": 938.0325,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "12:42:00",
+     "total_ac_power_meter_reading": 94796200.00000001,
+     "irradiation": 939.9668,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "12:43:00",
+     "total_ac_power_meter_reading": 94852200.00000001,
+     "irradiation": 949.3541,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "12:44:00",
+     "total_ac_power_meter_reading": 94834700,
+     "irradiation": 953.2106,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "12:45:00",
+     "total_ac_power_meter_reading": 94937100,
+     "irradiation": 941.4632,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "12:46:00",
+     "total_ac_power_meter_reading": 94872900.00000001,
+     "irradiation": 936.4936,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "12:47:00",
+     "total_ac_power_meter_reading": 94939600,
+     "irradiation": 937.7419,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "12:48:00",
+     "total_ac_power_meter_reading": 94929799.99999999,
+     "irradiation": 941.7067,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "12:49:00",
+     "total_ac_power_meter_reading": 94861000,
+     "irradiation": 934.3189,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "12:50:00",
+     "total_ac_power_meter_reading": 95003599.99999999,
+     "irradiation": 929.7297,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "12:51:00",
+     "total_ac_power_meter_reading": 94910400,
+     "irradiation": 946.4432,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "12:52:00",
+     "total_ac_power_meter_reading": 94919599.99999999,
+     "irradiation": 938.7266,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "12:53:00",
+     "total_ac_power_meter_reading": 94768000,
+     "irradiation": 937.4257,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "12:54:00",
+     "total_ac_power_meter_reading": 94723199.99999999,
+     "irradiation": 934.8083,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "12:55:00",
+     "total_ac_power_meter_reading": 94487100,
+     "irradiation": 934.9959,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "12:56:00",
+     "total_ac_power_meter_reading": 94481799.99999999,
+     "irradiation": 942.382,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "12:57:00",
+     "total_ac_power_meter_reading": 94389900,
+     "irradiation": 946.0661,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "12:58:00",
+     "total_ac_power_meter_reading": 94370100,
+     "irradiation": 938.4929,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "12:59:00",
+     "total_ac_power_meter_reading": 94214799.99999999,
+     "irradiation": 936.6116,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "13:00:00",
+     "total_ac_power_meter_reading": 94198200.00000001,
+     "irradiation": 936.1157,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "13:01:00",
+     "total_ac_power_meter_reading": 94224800,
+     "irradiation": 925.7498,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "13:02:00",
+     "total_ac_power_meter_reading": 94303400,
+     "irradiation": 928.7377,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "13:03:00",
+     "total_ac_power_meter_reading": 94313900,
+     "irradiation": 940.606,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "13:04:00",
+     "total_ac_power_meter_reading": 94138700,
+     "irradiation": 939.0571,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "13:05:00",
+     "total_ac_power_meter_reading": 94473700.00000001,
+     "irradiation": 934.6497,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "13:06:00",
+     "total_ac_power_meter_reading": 94591400.00000001,
+     "irradiation": 945.5844,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "13:07:00",
+     "total_ac_power_meter_reading": 94864800.00000001,
+     "irradiation": 941.0485,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "13:08:00",
+     "total_ac_power_meter_reading": 94892200,
+     "irradiation": 940.1035,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "13:09:00",
+     "total_ac_power_meter_reading": 94908200.00000001,
+     "irradiation": 946.1396,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "13:10:00",
+     "total_ac_power_meter_reading": 94959300,
+     "irradiation": 932.3653,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "13:11:00",
+     "total_ac_power_meter_reading": 94912299.99999999,
+     "irradiation": 931.4951,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "13:12:00",
+     "total_ac_power_meter_reading": 94905400.00000001,
+     "irradiation": 933.358,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "13:13:00",
+     "total_ac_power_meter_reading": 94942400,
+     "irradiation": 927.6302,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "13:14:00",
+     "total_ac_power_meter_reading": 94886200,
+     "irradiation": 941.7883,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "13:15:00",
+     "total_ac_power_meter_reading": 94946700,
+     "irradiation": 945.8288,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "13:16:00",
+     "total_ac_power_meter_reading": 94888700.00000001,
+     "irradiation": 946.3284,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "13:17:00",
+     "total_ac_power_meter_reading": 94917500,
+     "irradiation": 942.7898,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "13:18:00",
+     "total_ac_power_meter_reading": 94864200,
+     "irradiation": 942.9778,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "13:19:00",
+     "total_ac_power_meter_reading": 94929200,
+     "irradiation": 935.8359,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "13:20:00",
+     "total_ac_power_meter_reading": 94864700.00000001,
+     "irradiation": 931.6131,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "13:21:00",
+     "total_ac_power_meter_reading": 94885799.99999999,
+     "irradiation": 927.2658,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "13:22:00",
+     "total_ac_power_meter_reading": 94882099.99999999,
+     "irradiation": 930.3101,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "13:23:00",
+     "total_ac_power_meter_reading": 94962200,
+     "irradiation": 932.8572,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "13:24:00",
+     "total_ac_power_meter_reading": 94891000,
+     "irradiation": 945.5291,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "13:25:00",
+     "total_ac_power_meter_reading": 94832300,
+     "irradiation": 939.1317,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "13:26:00",
+     "total_ac_power_meter_reading": 94512600,
+     "irradiation": 936.327,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "13:27:00",
+     "total_ac_power_meter_reading": 97814599.99999999,
+     "irradiation": 946.7554,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "13:28:00",
+     "total_ac_power_meter_reading": 100274400,
+     "irradiation": 933.7149,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "13:29:00",
+     "total_ac_power_meter_reading": 102022400,
+     "irradiation": 935.4568,
+     "dc": 145000,
+     "pr": 0.7567
+    },
+    {
+     "plant": null,
+     "date": "06\/10\/2022",
+     "time": "13:30:00",
+     "total_ac_power_meter_reading": 101512600,
+     "irradiation": 931.7325,
+     "dc": 145000,
+     "pr": 0.7567
+    }
+   ]
   
 }
