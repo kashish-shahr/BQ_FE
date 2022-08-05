@@ -1,9 +1,12 @@
+<main>
 
+ <h6> Plant: <mat-label>{{selectedPlant}}</mat-label></h6>
+  
   <div class="dgr_buttons">
   <button mat-raised-button (click)="addStudent()">Add Data</button>
   <button mat-raised-button (click)=" goToCharts()">Display charts</button>
 </div>
-  <main>
+  
   <mat-form-field class="dgr_select" appearance="fill">
     <mat-label>Choose A sheet to see it's data</mat-label>
     <mat-select (selectionChange)="onChange($event)">

@@ -4155,6 +4155,87 @@
      "dc": 145000,
      "pr": 0.7567
     }
+   ],
+   "plants":[
+    {"viewValue":"Hybrid360","value":"hybrid360"}
+    ,{"viewValue":"AEML-350 MW","value":"aeml-350_mw"}
+    ,{"viewValue":"AP350","value":"ap350"}
+    ,{"viewValue":"Hapasar 300MW","value":"hapasar_300mw"}
+    ,{"viewValue":"Hybrid-2A","value":"hybrid_2a"}
+    ,{"viewValue":"Hybrid-2B","value":"hybrid_2b"}
+    ,{"viewValue":"RJ Pokharan","value":"rj_pokharan"}
+    ,{"viewValue":"RJ300","value":"rj300"}
+    ,{"viewValue":"AEML-250 MW","value":"aeml_250_mw"}
+    ,{"viewValue":"AP250","value":"ap250"}
+    ,{"viewValue":"AGETL","value":"agetl"}
+    ,{"viewValue":"KSPL","value":"kspl"}
+    ,{"viewValue":"KA200","value":"ka200"}
+    ,{"viewValue":"Rawara","value":"rawara"}
+    ,{"viewValue":"RJ200","value":"rj200"}
+    ,{"viewValue":"Khirasara_150MW","value":"khirasara_150mw"}
+    ,{"viewValue":"Khirasara","value":"khirasara"}
+    ,{"viewValue":"RJ100","value":"rj100"}
+    ,{"viewValue":"RSPL","value":"rspl"}
+    ,{"viewValue":"KREL","value":"krel"}
+    ,{"viewValue":"RREL","value":"rrel"}
+    ,{"viewValue":"PDPL-01","value":"pdpl_01"}
+    ,{"viewValue":"PDPL-02","value":"pdpl-02"}
+    ,{"viewValue":"Mahoba","value":"mahoba"}
+    ,{"viewValue":"Jhansi","value":"jhansi"}
+    ,{"viewValue":"Chattisgarh-01","value":"chattisgarh_01"}
+    ,{"viewValue":"Chattisgarh-02","value":"chattisgarh_02"}
+    ,{"viewValue":"Chitrakoot_50MW","value":"chitrakoot_50mw"}
+    ,{"viewValue":"Ghani","value":"ghani"}
+    ,{"viewValue":"TEL OPEN","value":"tel_open"}
+    ,{"viewValue":"Telengana DCR","value":"telengana_dcr"}
+    ,{"viewValue":"Pavagada-1","value":"pavagada_1"}
+    ,{"viewValue":"Pavagada-2","value":"pavagada_2"}
+    ,{"viewValue":"Pavagada-3","value":"pavagada_3"}
+    ,{"viewValue":"Madhuvanhalli-1","value":"madhuvanhalli_1"}
+   ,{"viewValue":"Madhuvanhalli-2","value":"madhuvanhalli_2"}
+    ,{"viewValue":"Yatnal","value":"yatnal"}
+    ,{"viewValue":"Rajeshwar","value":"rajeshwar"}
+    ,{"viewValue":"Maskal","value":"maskal"}
+    ,{"viewValue":"Rastapur","value":"rastapur"}
+    ,{"viewValue":"Rawara - SECI","value":"rawara_seci"}
+    ,{"viewValue":"Jalalabad","value":"jalalabad"}
+    ,{"viewValue":"Rawara - Merchant","value":"rawara_merchant"}
+    ,{"viewValue":"Shukrullahapur","value":"shukrullahapur"}
+    ,{"viewValue":"Essel Urja","value":"essel_urja"}
+    ,{"viewValue":"TN Urja","value":"tn_urja"}
+    ,{"viewValue":"Siddipet","value":"siddipet"}
+    ,{"viewValue":"Nalgonda","value":"nalgonda"}
+    ,{"viewValue":"Nabrangpur","value":"nabrangpur"}
+    ,{"viewValue":"Nalwar","value":"nalwar"}
+    ,{"viewValue":"Kallur- 40 MW","value":"kallur_40_mw"}
+    ,{"viewValue":"Bitta","value":"bitta"}
+    ,{"viewValue":"Chitrakoot - 25 MW","value":"chitrakoot_25_mw"}
+    ,{"viewValue":"Minpur","value":"minpur"}
+    ,{"viewValue":"Kanasar","value":"kanasar"}
+    ,{"viewValue":"Periyapatna","value":"periyapatna"}
+    ,{"viewValue":"T Narsipura","value":"t_narsipura"}
+    ,{"viewValue":"H Narsipura","value":"h_narsipura"}
+    ,{"viewValue":"Maaluru","value":"maaluru"}
+    ,{"viewValue":"Mahoba_20MW","value":"mahoba_20mw"}
+    ,{"viewValue":"Javergi","value":"javergi"}
+    ,{"viewValue":"KR Pete","value":"kr_pete"}
+    ,{"viewValue":"Bagewadi","value":"bagewadi"}
+    ,{"viewValue":"Magadi","value":"magadi"}
+    ,{"viewValue":"Tiptur","value":"tiptur"}
+    ,{"viewValue":"Bayadgi","value":"bayadgi"}
+    ,{"viewValue":"Kilaj","value":"kilaj"}
+    ,{"viewValue":"Channapatna","value":"channapatna"}
+    ,{"viewValue":"Gubbi","value":"gubbi"}
+    ,{"viewValue":"Ramnagara","value":"ramnagara"}
+    ,{"viewValue":"Bijapur","value":"bijapur"}
+    ,{"viewValue":"Indi","value":"indi"}
+    ,{"viewValue":"Muddebihal","value":"muddebihal"}
+    ,{"viewValue":"PN Clean Mansa","value":"pn_clean_mansa"}
+    ,{"viewValue":"Kallur- 10 MW","value":"kallur_10_mw"}
+    ,{"viewValue":"Shorapur","value":"shorapur"}
+    ,{"viewValue":"PN Renewable - Mansa","value":"pn_renewable_mansa"}
+    ,{"viewValue":"Bagalkot","value":"bagalkot"}
+    ,{"viewValue":"Gulbarga","value":"gulbarga"}
+    ,{"viewValue":"Sindagi","value":"sindagi"}
    ]
-  
 }

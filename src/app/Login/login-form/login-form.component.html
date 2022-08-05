@@ -1,0 +1,33 @@
+
+<form [formGroup]="fg_login" >
+    
+        <mat-form-field appearance="fill">
+          <mat-label>Enter your email</mat-label>
+          <input formControlName="email"matInput placeholder="pat@example.com" required>
+
+          <mat-error *ngIf="fg_login.get('email').hasError('required') && !fg_login.get('email').pristine">Email Should NOT be empty</mat-error>
+          <mat-error *ngIf="fg_login.get('email').hasError('email') && !fg_login.get('email').pristine">Invalid Email</mat-error>        
+        </mat-form-field>
+
+    <mat-form-field appearance="fill">
+        <mat-label>Enter your password</mat-label>
+        <input formControlName="password" matInput [type]="hide ? 'password' : 'text'">
+        <button mat-icon-button matSuffix (click)="hide = !hide">
+          <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+        </button>
+    </mat-form-field> 
+
+  <mat-form-field appearance="fill">
+    <mat-label>Select a plant</mat-label>
+    <mat-select formControlName="plant" name="plant">
+      <mat-option *ngFor="let plant of plantsData" [value]="plant.value">
+        {{plant.viewValue}}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+  <p>
+  <button [disabled]="fg_login.invalid" (click)="onSubmit()" mat-stroked-button class="primary">Submit</button>
+
+</p>
+
+</form>

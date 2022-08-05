@@ -17,7 +17,7 @@ import { DgrDataService } from 'src/app/Forms/dgr-data.service';
 export class AvailabilityComponent implements OnInit {
    toggle:boolean=true;
   constructor(
-    private _siteInputService: DgrDataService,
+    
     private _formBuilder: FormBuilder,
     private _router:Router
     

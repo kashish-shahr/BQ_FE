@@ -6,6 +6,7 @@ import { DisplayAllComponent } from "./charts/display-all/display-all.component"
 import { PiechartComponent } from "./charts/piechart/piechart.component";
 import { AddDgrComponent } from "./Forms/dgr/add-dgr/add-dgr.component";
 import { DgrComponent } from "./Forms/dgr/dgr.component";
+import { LoginFormComponent } from "./Login/login-form/login-form.component";
 import { PagenotfoundComponent } from "./Pages/dashboard/pagenotfound/pagenotfound.component";
 import { CustomInputComponent } from "./Shared/Elements/custom-input/custom-input.component";
 import { AddComponent } from "./Student/add/add.component";
@@ -16,6 +17,7 @@ const routes: Routes = [
   { path: '', component: DgrComponent },
   { path: 'adddgr', component:AddDgrComponent },
   { path: 'custom', component:CustomInputComponent },
+  { path: 'login', component:LoginFormComponent },
     
 
     { path: 'display', component: DisplayComponent },

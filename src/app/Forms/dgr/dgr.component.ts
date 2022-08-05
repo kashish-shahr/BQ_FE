@@ -11,14 +11,14 @@ export class DgrComponent implements OnInit {
 
   constructor(private _router:Router) { }
   
- 
+ selectedPlant:string;
   // dataSource = new MatTableDataSource<any>(ELEMENT_DATA);
   
 
   
   
   ngOnInit(): void {
-   
+   this.selectedPlant=localStorage.getItem("plant");
   }
 
   addStudent() {
