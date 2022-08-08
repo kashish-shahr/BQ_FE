@@ -2,7 +2,7 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
-table {
+/* table {
     width: 100%;
   }
   table,th,td{
@@ -15,5 +15,45 @@ table {
   }
   mat-form-field{
     width: 25rem;
+} */
+table,td{
+  border:1px solid black;
+  text-align: center;
 }
-  
+
+
+th{
+  font-size: 8px;
+  border:1px solid black;
+}
+td{
+  font-size: 11px;
+}
+
+.mat-table{
+  overflow-x: scroll;
+}
+.mat-cell,
+.mat-header-cell {
+
+  word-wrap:break-word;
+  display: table-cell;
+  padding: 0px 10px;
+  line-break: unset;
+  width: 100%;
+  white-space:inherit;
+  overflow: hidden;
+  vertical-align: middle;
+}
+.mat-row,
+.mat-header-row {
+  display: table-row;
+}
+.mat-paginator {
+display: flex;
+justify-content: flex-start;
+position:absolute;
+
+
+} 
+

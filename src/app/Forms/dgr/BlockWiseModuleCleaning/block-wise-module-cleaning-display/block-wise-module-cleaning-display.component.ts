@@ -13,7 +13,7 @@ export class BlockWiseModuleCleaningDisplayComponent implements OnInit {
     'block1_sam_wet',
     'block1_sam_dry',
     'block1_manual',
-    'block2_sam_wet',
+  'block2_sam_wet',
     'block2_sam_dry',
     'block2_manual',
     'block3_sam_wet',

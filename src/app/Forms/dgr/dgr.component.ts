@@ -74,6 +74,7 @@ export class DgrComponent implements OnInit {
       this.si_flag=false;
       this.av_flag=false;
       this.gcr_flag=false;
+      this.bwmc_flag=false;
       this.cl_flag=false;
       this.brd_flag=true;
     }
@@ -82,6 +83,7 @@ export class DgrComponent implements OnInit {
       this.si_flag=false;
       this.av_flag=false;
       this.gcr_flag=false;
+      this.bwmc_flag=false;
       this.cl_flag=true;
       this.brd_flag=false;
     }

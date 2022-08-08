@@ -1,12 +1,11 @@
+ th.mat-header-cell,td.mat-cell{
 
-
-  th{
-    font-size: 8px;
+    padding: 0 1.5rem;
+    border-bottom-width: 2px;
     
-
+    border-bottom-style: solid; 
   }
-  td{
-    font-size: 10px;
+ 
+  table{
+    width: 45%;
   }
-  
-  
