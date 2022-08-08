@@ -12,7 +12,10 @@ export class BlockWiseModuleCleaningAddComponent implements OnInit {
 
   constructor(private _formBuilder:FormBuilder,private _router:Router,private _siteGrassCuttingService:DgrDataService) { }
   fg_block_wise_module_cleaning:FormGroup;
+  plant:string="";
   ngOnInit(): void {
+
+    this.plant=localStorage.getItem("plant");
     this.fg_block_wise_module_cleaning=this._formBuilder.group({
       block1_sam_wet: new FormControl(null,  ),
       block1_sam_dry: new FormControl(null,  ),

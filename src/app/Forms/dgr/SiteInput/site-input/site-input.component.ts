@@ -21,7 +21,10 @@ export class SiteInputComponent implements OnInit {
     private _router:Router
   ) {}
   fg_siteInput: FormGroup;
+  plant:string="";
   ngOnInit(): void {
+
+    this.plant=localStorage.getItem("plant");
     this.fg_siteInput = this._formBuilder.group({
       inverter_reading: new FormControl(null,  ),
       meter_reading: new FormControl(null,  ),

@@ -22,11 +22,17 @@ export class AvailabilityComponent implements OnInit {
     private _router:Router
     
   ) {}
+  
   fg_availability_day: FormGroup;
   fg_availability_night: FormGroup;
   dayToggle:boolean=false;
   nightToggle:boolean=false;
+  plant:string="";
   ngOnInit(): void {
+
+    this.plant=localStorage.getItem("plant");
+
+
     this.fg_availability_day = this._formBuilder.group({
       date_day: new FormControl(null,  ),
       total_operational_minutes_irradiation_greater_than_100_day: new FormControl(null,  ),

@@ -13,7 +13,10 @@ export class BreakDownAddComponent implements OnInit {
   
   constructor(private _formBuilder:FormBuilder,private _router:Router,private _siteGrassCuttingService:DgrDataService) { }
   fg_break_down:FormGroup;
+  plant:string="";
   ngOnInit(): void {
+
+    this.plant=localStorage.getItem("plant");
     this.fg_break_down=this._formBuilder.group({
     date: new FormControl(null,  ),
     category_of_breakdown_state: new FormControl(null,  ),

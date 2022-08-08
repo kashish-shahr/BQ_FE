@@ -12,7 +12,10 @@ export class GrassCuttingAddComponent implements OnInit {
 
   constructor(private _formBuilder:FormBuilder,private _router:Router,private _siteGrassCuttingService:DgrDataService) { }
   fg_grasscutting:FormGroup;
+  plant:string="";
   ngOnInit(): void {
+
+    this.plant=localStorage.getItem("plant");
     this.fg_grasscutting=this._formBuilder.group({
       grass_cutting_report_daily_in_acres: new FormControl(null,  ),
       grass_cutting_report_mtd_in_acres: new FormControl(null,  ),

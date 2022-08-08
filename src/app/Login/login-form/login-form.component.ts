@@ -35,6 +35,8 @@ export class LoginFormComponent implements OnInit {
   }
   
   ngOnInit(): void {
+    localStorage.clear();
+    
 this._loginService.getAllPlants().subscribe((plantData:Plant[])=>{
 this.plantsData=plantData;
 });
